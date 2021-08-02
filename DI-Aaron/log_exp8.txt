@@ -1,0 +1,100 @@
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50', bs=42, comment='', do_flip=False, epochs=20000, exp_name='exp8_IN_layer_11', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=2, specified_layer=11, stop_layer=None, store_best_images=True, targets='1,2,11,25,63,92,94,107,151,154,207,250,270,277,283,292,340,288,289,344,385,386,466,599,607,776,907,955,972,937,930,904,890,845,763,661,499,490,489,479,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+loading torchvision model for inversion with the name: resnet50
+==> Resuming from checkpoint..
+Deep inversion class generation
+Confirming BN layer 11 specified
+get_images call
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+------------iteration 20000----------
+total loss 0.029488787055015564
+loss_r_feature 0.05767344683408737
+main criterion 2.7070511350757442e-05
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50_SIN.pth.tar', bs=42, comment='', do_flip=False, epochs=20000, exp_name='exp8_SIN_layer_11', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=2, specified_layer=11, stop_layer=None, store_best_images=True, targets='1,2,11,25,63,92,94,107,151,154,207,250,270,277,283,292,340,288,289,344,385,386,466,599,607,776,907,955,972,937,930,904,890,845,763,661,499,490,489,479,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+==> Resuming from checkpoint..
+=> loading checkpoint './resnet50_SIN.pth.tar'
+=> loaded checkpoint './resnet50_SIN.pth.tar' (epoch 60)
+Deep inversion class generation
+Confirming BN layer 11 specified
+get_images call
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+------------iteration 20000----------
+total loss 0.023385893553495407
+loss_r_feature 0.031086575239896774
+main criterion 1.4903539522492792e-05
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50', bs=42, comment='', do_flip=False, epochs=20000, exp_name='exp8_IN_layer_24', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=2, specified_layer=24, stop_layer=None, store_best_images=True, targets='1,2,11,25,63,92,94,107,151,154,207,250,270,277,283,292,340,288,289,344,385,386,466,599,607,776,907,955,972,937,930,904,890,845,763,661,499,490,489,479,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+loading torchvision model for inversion with the name: resnet50
+==> Resuming from checkpoint..
+Deep inversion class generation
+Confirming BN layer 24 specified
+get_images call
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+------------iteration 20000----------
+total loss 0.025384249165654182
+loss_r_feature 0.02742566540837288
+main criterion 2.1071253286208957e-05
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50_SIN.pth.tar', bs=42, comment='', do_flip=False, epochs=20000, exp_name='exp8_SIN_layer_24', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=2, specified_layer=24, stop_layer=None, store_best_images=True, targets='1,2,11,25,63,92,94,107,151,154,207,250,270,277,283,292,340,288,289,344,385,386,466,599,607,776,907,955,972,937,930,904,890,845,763,661,499,490,489,479,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+==> Resuming from checkpoint..
+=> loading checkpoint './resnet50_SIN.pth.tar'
+=> loaded checkpoint './resnet50_SIN.pth.tar' (epoch 60)
+Deep inversion class generation
+Confirming BN layer 24 specified
+get_images call
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+------------iteration 20000----------
+total loss 0.030811522156000137
+loss_r_feature 0.02791721746325493
+main criterion 1.2533858352981042e-05
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50', bs=42, comment='', do_flip=False, epochs=20000, exp_name='exp8_IN_layer_43', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=2, specified_layer=43, stop_layer=None, store_best_images=True, targets='1,2,11,25,63,92,94,107,151,154,207,250,270,277,283,292,340,288,289,344,385,386,466,599,607,776,907,955,972,937,930,904,890,845,763,661,499,490,489,479,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+loading torchvision model for inversion with the name: resnet50
+==> Resuming from checkpoint..
+Deep inversion class generation
+Confirming BN layer 43 specified
+get_images call
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+------------iteration 20000----------
+total loss 0.07529276609420776
+loss_r_feature 0.07554099708795547
+main criterion 6.094689524616115e-05
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50_SIN.pth.tar', bs=42, comment='', do_flip=False, epochs=20000, exp_name='exp8_SIN_layer_43', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=2, specified_layer=43, stop_layer=None, store_best_images=True, targets='1,2,11,25,63,92,94,107,151,154,207,250,270,277,283,292,340,288,289,344,385,386,466,599,607,776,907,955,972,937,930,904,890,845,763,661,499,490,489,479,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+==> Resuming from checkpoint..
+=> loading checkpoint './resnet50_SIN.pth.tar'
+=> loaded checkpoint './resnet50_SIN.pth.tar' (epoch 60)
+Deep inversion class generation
+Confirming BN layer 43 specified
+get_images call
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+------------iteration 20000----------
+total loss 0.057358432561159134
+loss_r_feature 0.07201004028320312
+main criterion 3.652196755865589e-05
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50', bs=42, comment='', do_flip=False, epochs=20000, exp_name='exp8_IN_layer_53', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=2, specified_layer=53, stop_layer=None, store_best_images=True, targets='1,2,11,25,63,92,94,107,151,154,207,250,270,277,283,292,340,288,289,344,385,386,466,599,607,776,907,955,972,937,930,904,890,845,763,661,499,490,489,479,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+loading torchvision model for inversion with the name: resnet50
+==> Resuming from checkpoint..
+Deep inversion class generation
+Confirming BN layer 53 specified
+get_images call
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+------------iteration 20000----------
+total loss 0.07164086401462555
+loss_r_feature 0.1685982048511505
+main criterion 0.0004980175872333348
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50_SIN.pth.tar', bs=42, comment='', do_flip=False, epochs=20000, exp_name='exp8_SIN_layer_53', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=2, specified_layer=53, stop_layer=None, store_best_images=True, targets='1,2,11,25,63,92,94,107,151,154,207,250,270,277,283,292,340,288,289,344,385,386,466,599,607,776,907,955,972,937,930,904,890,845,763,661,499,490,489,479,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+==> Resuming from checkpoint..
+=> loading checkpoint './resnet50_SIN.pth.tar'
+=> loaded checkpoint './resnet50_SIN.pth.tar' (epoch 60)
+Deep inversion class generation
+Confirming BN layer 53 specified
+get_images call
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+------------iteration 20000----------
+total loss 0.08335963636636734
+loss_r_feature 0.22829881310462952
+main criterion 0.0005687084048986435

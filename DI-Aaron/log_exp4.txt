@@ -1,0 +1,1016 @@
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50_combined_with_decay.pth.tar', bs=42, comment='', do_flip=False, epochs=20000, exp_name='exp4_layer_1', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=0, specified_layer=1, stop_layer=None, store_best_images=True, targets='1,2,11,25,63,92,94,107,151,154,207,250,270,277,283,292,340,288,289,344,24,386,466,599,607,776,907,955,972,937,930,904,890,845,763,661,499,490,489,479,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+==> Resuming from checkpoint..
+Deep inversion class generation
+Confirming BN layer 1 specified
+get_images call
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+------------iteration 100----------
+total loss 29.888500213623047
+loss_r_feature 104.46705627441406
+main criterion 24.288185119628906
+------------iteration 200----------
+total loss 34.039085388183594
+loss_r_feature 108.37669372558594
+main criterion 28.15250587463379
+------------iteration 300----------
+total loss 34.706668853759766
+loss_r_feature 108.86933898925781
+main criterion 28.7880802154541
+------------iteration 400----------
+total loss 34.10577392578125
+loss_r_feature 108.41117858886719
+main criterion 28.214710235595703
+------------iteration 500----------
+total loss 32.72441864013672
+loss_r_feature 107.66618347167969
+main criterion 26.88241958618164
+------------iteration 600----------
+total loss 31.375246047973633
+loss_r_feature 106.06970977783203
+main criterion 25.630239486694336
+------------iteration 700----------
+total loss 29.302757263183594
+loss_r_feature 104.50577545166016
+main criterion 23.659330368041992
+------------iteration 800----------
+total loss 28.0126895904541
+loss_r_feature 102.91205596923828
+main criterion 22.47469711303711
+------------iteration 900----------
+total loss 24.74844741821289
+loss_r_feature 100.6881332397461
+main criterion 19.352336883544922
+------------iteration 1000----------
+total loss 22.13743782043457
+loss_r_feature 98.27291870117188
+main criterion 16.89349365234375
+------------iteration 1100----------
+total loss 19.83642578125
+loss_r_feature 96.04917907714844
+main criterion 14.734321594238281
+------------iteration 1200----------
+total loss 17.859289169311523
+loss_r_feature 93.76773834228516
+main criterion 12.901387214660645
+------------iteration 1300----------
+total loss 16.050338745117188
+loss_r_feature 91.63697814941406
+main criterion 11.225088119506836
+------------iteration 1400----------
+total loss 14.789190292358398
+loss_r_feature 89.5125732421875
+main criterion 10.093391418457031
+------------iteration 1500----------
+total loss 13.841146469116211
+loss_r_feature 87.93204498291016
+main criterion 9.243322372436523
+------------iteration 1600----------
+total loss 12.491659164428711
+loss_r_feature 86.41974639892578
+main criterion 7.983773231506348
+------------iteration 1700----------
+total loss 12.097066879272461
+loss_r_feature 85.22615051269531
+main criterion 7.658992290496826
+------------iteration 1800----------
+total loss 11.513357162475586
+loss_r_feature 84.25421142578125
+main criterion 7.130251407623291
+------------iteration 1900----------
+total loss 11.223127365112305
+loss_r_feature 83.71405029296875
+main criterion 6.869551658630371
+------------iteration 2000----------
+total loss 11.028427124023438
+loss_r_feature 83.59800720214844
+main criterion 6.681216239929199
+------------iteration 2100----------
+total loss 46.03910446166992
+loss_r_feature 107.27855682373047
+main criterion 39.83263397216797
+------------iteration 2200----------
+total loss 51.221458435058594
+loss_r_feature 113.16954040527344
+main criterion 44.49342727661133
+------------iteration 2300----------
+total loss 50.55648422241211
+loss_r_feature 111.54100036621094
+main criterion 43.95450210571289
+------------iteration 2400----------
+total loss 46.17568588256836
+loss_r_feature 108.23912048339844
+main criterion 39.83826446533203
+------------iteration 2500----------
+total loss 38.184017181396484
+loss_r_feature 103.63799285888672
+main criterion 32.206764221191406
+------------iteration 2600----------
+total loss 28.575918197631836
+loss_r_feature 97.68130493164062
+main criterion 23.043588638305664
+------------iteration 2700----------
+total loss 20.49225616455078
+loss_r_feature 92.34107971191406
+main criterion 15.351534843444824
+------------iteration 2800----------
+total loss 15.557357788085938
+loss_r_feature 88.01703643798828
+main criterion 10.713586807250977
+------------iteration 2900----------
+total loss 13.288511276245117
+loss_r_feature 85.6834716796875
+main criterion 8.595793724060059
+------------iteration 3000----------
+total loss 13.152515411376953
+loss_r_feature 85.11540222167969
+main criterion 8.494073867797852
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50_combined_with_decay.pth.tar', bs=42, comment='', do_flip=False, epochs=20000, exp_name='exp4_layer_8', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=0, specified_layer=8, stop_layer=None, store_best_images=True, targets='1,2,11,25,63,92,94,107,151,154,207,250,270,277,283,292,340,288,289,344,24,386,466,599,607,776,907,955,972,937,930,904,890,845,763,661,499,490,489,479,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+==> Resuming from checkpoint..
+Deep inversion class generation
+Confirming BN layer 8 specified
+get_images call
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+------------iteration 100----------
+total loss 30.37950325012207
+loss_r_feature 120.80084228515625
+main criterion 23.966331481933594
+------------iteration 200----------
+total loss 34.352317810058594
+loss_r_feature 126.03912353515625
+main criterion 27.583364486694336
+------------iteration 300----------
+total loss 34.84297180175781
+loss_r_feature 126.48990631103516
+main criterion 28.04402732849121
+------------iteration 400----------
+total loss 34.45409393310547
+loss_r_feature 125.69123840332031
+main criterion 27.699356079101562
+------------iteration 500----------
+total loss 33.044090270996094
+loss_r_feature 124.20372009277344
+main criterion 26.374755859375
+------------iteration 600----------
+total loss 31.641040802001953
+loss_r_feature 121.18989562988281
+main criterion 25.13922119140625
+------------iteration 700----------
+total loss 29.433109283447266
+loss_r_feature 117.83880615234375
+main criterion 23.121673583984375
+------------iteration 800----------
+total loss 27.948135375976562
+loss_r_feature 115.11978149414062
+main criterion 21.797073364257812
+------------iteration 900----------
+total loss 24.610885620117188
+loss_r_feature 111.51075744628906
+main criterion 18.669313430786133
+------------iteration 1000----------
+total loss 22.120361328125
+loss_r_feature 106.76665496826172
+main criterion 16.443832397460938
+------------iteration 1100----------
+total loss 19.696388244628906
+loss_r_feature 102.61063385009766
+main criterion 14.254280090332031
+------------iteration 1200----------
+total loss 17.773601531982422
+loss_r_feature 99.47274780273438
+main criterion 12.513358116149902
+------------iteration 1300----------
+total loss 15.975217819213867
+loss_r_feature 94.2726058959961
+main criterion 10.9946928024292
+------------iteration 1400----------
+total loss 14.671722412109375
+loss_r_feature 90.17371368408203
+main criterion 9.912742614746094
+------------iteration 1500----------
+total loss 13.774797439575195
+loss_r_feature 88.14047241210938
+main criterion 9.130121231079102
+------------iteration 1600----------
+total loss 12.438419342041016
+loss_r_feature 84.84451293945312
+main criterion 7.967113494873047
+------------iteration 1700----------
+total loss 11.928247451782227
+loss_r_feature 82.48281860351562
+main criterion 7.580394744873047
+------------iteration 1800----------
+total loss 11.283258438110352
+loss_r_feature 80.5035400390625
+main criterion 7.037794589996338
+------------iteration 1900----------
+total loss 11.056806564331055
+loss_r_feature 78.84261322021484
+main criterion 6.895460605621338
+------------iteration 2000----------
+total loss 10.82584285736084
+loss_r_feature 78.66272735595703
+main criterion 6.673825740814209
+------------iteration 2100----------
+total loss 46.500762939453125
+loss_r_feature 125.68840026855469
+main criterion 39.37168502807617
+------------iteration 2200----------
+total loss 51.56844711303711
+loss_r_feature 135.66787719726562
+main criterion 43.72425842285156
+------------iteration 2300----------
+total loss 50.730255126953125
+loss_r_feature 132.1573486328125
+main criterion 43.10526657104492
+------------iteration 2400----------
+total loss 46.29990005493164
+loss_r_feature 127.08969116210938
+main criterion 39.02580642700195
+------------iteration 2500----------
+total loss 38.153709411621094
+loss_r_feature 118.77786254882812
+main criterion 31.422286987304688
+------------iteration 2600----------
+total loss 28.21558952331543
+loss_r_feature 107.22529602050781
+main criterion 22.20179557800293
+------------iteration 2700----------
+total loss 20.168170928955078
+loss_r_feature 97.28555297851562
+main criterion 14.764134407043457
+------------iteration 2800----------
+total loss 15.282732009887695
+loss_r_feature 89.02128601074219
+main criterion 10.359453201293945
+------------iteration 2900----------
+total loss 13.027521133422852
+loss_r_feature 84.50376892089844
+main criterion 8.356424331665039
+------------iteration 3000----------
+total loss 12.911087036132812
+loss_r_feature 83.45519256591797
+main criterion 8.29666805267334
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50_combined_with_decay.pth.tar', bs=42, comment='', do_flip=False, epochs=20000, exp_name='exp4_layer_15', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=0, specified_layer=15, stop_layer=None, store_best_images=True, targets='1,2,11,25,63,92,94,107,151,154,207,250,270,277,283,292,340,288,289,344,24,386,466,599,607,776,907,955,972,937,930,904,890,845,763,661,499,490,489,479,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+==> Resuming from checkpoint..
+Deep inversion class generation
+Confirming BN layer 15 specified
+get_images call
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+------------iteration 100----------
+total loss 32.63362503051758
+loss_r_feature 198.52845764160156
+main criterion 22.347366333007812
+------------iteration 200----------
+total loss 36.15892028808594
+loss_r_feature 207.25180053710938
+main criterion 25.363252639770508
+------------iteration 300----------
+total loss 36.56278610229492
+loss_r_feature 207.8406982421875
+main criterion 25.734811782836914
+------------iteration 400----------
+total loss 35.93366241455078
+loss_r_feature 204.26065063476562
+main criterion 25.291715621948242
+------------iteration 500----------
+total loss 34.640140533447266
+loss_r_feature 203.13995361328125
+main criterion 24.066722869873047
+------------iteration 600----------
+total loss 32.96861267089844
+loss_r_feature 196.4794921875
+main criterion 22.743900299072266
+------------iteration 700----------
+total loss 30.859779357910156
+loss_r_feature 187.980224609375
+main criterion 21.083656311035156
+------------iteration 800----------
+total loss 29.153663635253906
+loss_r_feature 181.94090270996094
+main criterion 19.70336151123047
+------------iteration 900----------
+total loss 25.955835342407227
+loss_r_feature 173.05850219726562
+main criterion 16.977243423461914
+------------iteration 1000----------
+total loss 23.33230209350586
+loss_r_feature 162.77345275878906
+main criterion 14.894429206848145
+------------iteration 1100----------
+total loss 21.117311477661133
+loss_r_feature 154.4855499267578
+main criterion 13.119758605957031
+------------iteration 1200----------
+total loss 19.25138282775879
+loss_r_feature 147.6414794921875
+main criterion 11.62022876739502
+------------iteration 1300----------
+total loss 17.283035278320312
+loss_r_feature 137.63723754882812
+main criterion 10.172542572021484
+------------iteration 1400----------
+total loss 16.00029754638672
+loss_r_feature 130.20997619628906
+main criterion 9.279038429260254
+------------iteration 1500----------
+total loss 14.989694595336914
+loss_r_feature 125.041748046875
+main criterion 8.540922164916992
+------------iteration 1600----------
+total loss 13.64776611328125
+loss_r_feature 118.46829223632812
+main criterion 7.538331031799316
+------------iteration 1700----------
+total loss 13.127099990844727
+loss_r_feature 113.72493743896484
+main criterion 7.262308120727539
+------------iteration 1800----------
+total loss 12.503345489501953
+loss_r_feature 109.60155487060547
+main criterion 6.849549293518066
+------------iteration 1900----------
+total loss 12.171920776367188
+loss_r_feature 106.96908569335938
+main criterion 6.6516900062561035
+------------iteration 2000----------
+total loss 12.005474090576172
+loss_r_feature 106.17300415039062
+main criterion 6.52529239654541
+------------iteration 2100----------
+total loss 48.54338836669922
+loss_r_feature 213.58724975585938
+main criterion 37.063926696777344
+------------iteration 2200----------
+total loss 54.00473403930664
+loss_r_feature 234.73233032226562
+main criterion 41.27019500732422
+------------iteration 2300----------
+total loss 52.180458068847656
+loss_r_feature 222.76275634765625
+main criterion 40.09001541137695
+------------iteration 2400----------
+total loss 47.363243103027344
+loss_r_feature 209.86392211914062
+main criterion 36.01792526245117
+------------iteration 2500----------
+total loss 38.98369216918945
+loss_r_feature 190.55389404296875
+main criterion 28.731069564819336
+------------iteration 2600----------
+total loss 29.041162490844727
+loss_r_feature 165.27931213378906
+main criterion 20.188371658325195
+------------iteration 2700----------
+total loss 21.086496353149414
+loss_r_feature 143.65298461914062
+main criterion 13.425758361816406
+------------iteration 2800----------
+total loss 16.23636245727539
+loss_r_feature 126.59896850585938
+main criterion 9.49757194519043
+------------iteration 2900----------
+total loss 13.997051239013672
+loss_r_feature 117.48101043701172
+main criterion 7.743327617645264
+------------iteration 3000----------
+total loss 13.842519760131836
+loss_r_feature 115.65670776367188
+main criterion 7.685139179229736
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50_combined_with_decay.pth.tar', bs=42, comment='', do_flip=False, epochs=20000, exp_name='exp4_layer_22', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=0, specified_layer=22, stop_layer=None, store_best_images=True, targets='1,2,11,25,63,92,94,107,151,154,207,250,270,277,283,292,340,288,289,344,24,386,466,599,607,776,907,955,972,937,930,904,890,845,763,661,499,490,489,479,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+==> Resuming from checkpoint..
+Deep inversion class generation
+Confirming BN layer 22 specified
+get_images call
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+------------iteration 100----------
+total loss 33.88803482055664
+loss_r_feature 290.39227294921875
+main criterion 19.08894157409668
+------------iteration 200----------
+total loss 34.644775390625
+loss_r_feature 293.0403137207031
+main criterion 19.695280075073242
+------------iteration 300----------
+total loss 35.319488525390625
+loss_r_feature 295.6239013671875
+main criterion 20.244583129882812
+------------iteration 400----------
+total loss 34.46766662597656
+loss_r_feature 288.68359375
+main criterion 19.744731903076172
+------------iteration 500----------
+total loss 33.859134674072266
+loss_r_feature 288.0181884765625
+main criterion 19.17708969116211
+------------iteration 600----------
+total loss 32.50544738769531
+loss_r_feature 277.90460205078125
+main criterion 18.338430404663086
+------------iteration 700----------
+total loss 30.677087783813477
+loss_r_feature 265.2893371582031
+main criterion 17.156513214111328
+------------iteration 800----------
+total loss 29.327831268310547
+loss_r_feature 255.29762268066406
+main criterion 16.32025146484375
+------------iteration 900----------
+total loss 26.673320770263672
+loss_r_feature 238.5679473876953
+main criterion 14.522102355957031
+------------iteration 1000----------
+total loss 23.833087921142578
+loss_r_feature 219.82269287109375
+main criterion 12.639429092407227
+------------iteration 1100----------
+total loss 22.07501983642578
+loss_r_feature 206.76327514648438
+main criterion 11.555561065673828
+------------iteration 1200----------
+total loss 20.07884407043457
+loss_r_feature 190.91464233398438
+main criterion 10.371598243713379
+------------iteration 1300----------
+total loss 17.809675216674805
+loss_r_feature 171.59368896484375
+main criterion 9.087546348571777
+------------iteration 1400----------
+total loss 16.403907775878906
+loss_r_feature 156.42459106445312
+main criterion 8.458117485046387
+------------iteration 1500----------
+total loss 15.175796508789062
+loss_r_feature 143.99462890625
+main criterion 7.865479946136475
+------------iteration 1600----------
+total loss 13.764915466308594
+loss_r_feature 129.19583129882812
+main criterion 7.205934047698975
+------------iteration 1700----------
+total loss 12.999929428100586
+loss_r_feature 117.81694030761719
+main criterion 7.0178303718566895
+------------iteration 1800----------
+total loss 12.222718238830566
+loss_r_feature 107.48332977294922
+main criterion 6.762239933013916
+------------iteration 1900----------
+total loss 11.805097579956055
+loss_r_feature 101.55685424804688
+main criterion 6.643474102020264
+------------iteration 2000----------
+total loss 11.638166427612305
+loss_r_feature 99.48944091796875
+main criterion 6.580165863037109
+------------iteration 2100----------
+total loss 50.71539306640625
+loss_r_feature 357.87127685546875
+main criterion 32.17530822753906
+------------iteration 2200----------
+total loss 52.98403549194336
+loss_r_feature 380.3432922363281
+main criterion 33.2489128112793
+------------iteration 2300----------
+total loss 49.73811340332031
+loss_r_feature 350.6775207519531
+main criterion 31.531400680541992
+------------iteration 2400----------
+total loss 45.51728057861328
+loss_r_feature 325.6024169921875
+main criterion 28.639968872070312
+------------iteration 2500----------
+total loss 37.92702102661133
+loss_r_feature 285.2933044433594
+main criterion 23.166101455688477
+------------iteration 2600----------
+total loss 28.26791000366211
+loss_r_feature 232.0726776123047
+main criterion 16.288042068481445
+------------iteration 2700----------
+total loss 20.569416046142578
+loss_r_feature 184.51995849609375
+main criterion 11.07085132598877
+------------iteration 2800----------
+total loss 15.714603424072266
+loss_r_feature 146.2899932861328
+main criterion 8.197126388549805
+------------iteration 2900----------
+total loss 13.350038528442383
+loss_r_feature 123.79881286621094
+main criterion 6.9914093017578125
+------------iteration 3000----------
+total loss 12.862245559692383
+loss_r_feature 117.58983612060547
+main criterion 6.820981502532959
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50_combined_with_decay.pth.tar', bs=42, comment='', do_flip=False, epochs=20000, exp_name='exp4_layer_29', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=0, specified_layer=29, stop_layer=None, store_best_images=True, targets='1,2,11,25,63,92,94,107,151,154,207,250,270,277,283,292,340,288,289,344,24,386,466,599,607,776,907,955,972,937,930,904,890,845,763,661,499,490,489,479,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+==> Resuming from checkpoint..
+Deep inversion class generation
+Confirming BN layer 29 specified
+get_images call
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+------------iteration 100----------
+total loss 37.775577545166016
+loss_r_feature 434.2813415527344
+main criterion 15.839994430541992
+------------iteration 200----------
+total loss 35.55192947387695
+loss_r_feature 402.0829772949219
+main criterion 15.2229585647583
+------------iteration 300----------
+total loss 37.07196044921875
+loss_r_feature 420.09521484375
+main criterion 15.848471641540527
+------------iteration 400----------
+total loss 35.48781204223633
+loss_r_feature 398.7143249511719
+main criterion 15.338592529296875
+------------iteration 500----------
+total loss 35.240394592285156
+loss_r_feature 397.7962646484375
+main criterion 15.143204689025879
+------------iteration 600----------
+total loss 33.43813705444336
+loss_r_feature 372.7846984863281
+main criterion 14.598555564880371
+------------iteration 700----------
+total loss 31.23736000061035
+loss_r_feature 344.3453674316406
+main criterion 13.8311767578125
+------------iteration 800----------
+total loss 30.223976135253906
+loss_r_feature 330.9501647949219
+main criterion 13.4957857131958
+------------iteration 900----------
+total loss 28.121789932250977
+loss_r_feature 308.52886962890625
+main criterion 12.524019241333008
+------------iteration 1000----------
+total loss 25.967510223388672
+loss_r_feature 288.6745910644531
+main criterion 11.37094783782959
+------------iteration 1100----------
+total loss 24.784608840942383
+loss_r_feature 276.279296875
+main criterion 10.81913948059082
+------------iteration 1200----------
+total loss 22.814712524414062
+loss_r_feature 254.32461547851562
+main criterion 9.959805488586426
+------------iteration 1300----------
+total loss 20.06854820251465
+loss_r_feature 222.9681396484375
+main criterion 8.797553062438965
+------------iteration 1400----------
+total loss 18.45326805114746
+loss_r_feature 202.76161193847656
+main criterion 8.2073974609375
+------------iteration 1500----------
+total loss 16.962278366088867
+loss_r_feature 183.71864318847656
+main criterion 7.680826187133789
+------------iteration 1600----------
+total loss 15.311705589294434
+loss_r_feature 161.5664825439453
+main criterion 7.148062705993652
+------------iteration 1700----------
+total loss 14.211445808410645
+loss_r_feature 143.56851196289062
+main criterion 6.954517364501953
+------------iteration 1800----------
+total loss 13.161508560180664
+loss_r_feature 125.73806762695312
+main criterion 6.799984931945801
+------------iteration 1900----------
+total loss 12.636428833007812
+loss_r_feature 116.23480987548828
+main criterion 6.7513427734375
+------------iteration 2000----------
+total loss 12.491500854492188
+loss_r_feature 113.21852111816406
+main criterion 6.75759744644165
+------------iteration 2100----------
+total loss 52.7255859375
+loss_r_feature 536.3949584960938
+main criterion 25.411869049072266
+------------iteration 2200----------
+total loss 52.713233947753906
+loss_r_feature 543.7448120117188
+main criterion 25.013050079345703
+------------iteration 2300----------
+total loss 46.357112884521484
+loss_r_feature 463.1835632324219
+main criterion 22.727588653564453
+------------iteration 2400----------
+total loss 43.863651275634766
+loss_r_feature 438.11968994140625
+main criterion 21.529312133789062
+------------iteration 2500----------
+total loss 38.691768646240234
+loss_r_feature 386.9317932128906
+main criterion 18.966691970825195
+------------iteration 2600----------
+total loss 31.194091796875
+loss_r_feature 326.55242919921875
+main criterion 14.558958053588867
+------------iteration 2700----------
+total loss 22.881738662719727
+loss_r_feature 248.97377014160156
+main criterion 10.209961891174316
+------------iteration 2800----------
+total loss 17.460887908935547
+loss_r_feature 188.73507690429688
+main criterion 7.864278793334961
+------------iteration 2900----------
+total loss 14.709173202514648
+loss_r_feature 153.2516326904297
+main criterion 6.917688846588135
+------------iteration 3000----------
+total loss 14.029642105102539
+loss_r_feature 142.90757751464844
+main criterion 6.760782241821289
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50_combined_with_decay.pth.tar', bs=42, comment='', do_flip=False, epochs=20000, exp_name='exp4_layer_36', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=0, specified_layer=36, stop_layer=None, store_best_images=True, targets='1,2,11,25,63,92,94,107,151,154,207,250,270,277,283,292,340,288,289,344,24,386,466,599,607,776,907,955,972,937,930,904,890,845,763,661,499,490,489,479,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+==> Resuming from checkpoint..
+Deep inversion class generation
+Confirming BN layer 36 specified
+get_images call
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+------------iteration 100----------
+total loss 82.19821166992188
+loss_r_feature 1308.900146484375
+main criterion 16.52111053466797
+------------iteration 200----------
+total loss 75.02178955078125
+loss_r_feature 1183.0736083984375
+main criterion 15.634668350219727
+------------iteration 300----------
+total loss 79.94412994384766
+loss_r_feature 1267.9112548828125
+main criterion 16.32269859313965
+------------iteration 400----------
+total loss 75.19567108154297
+loss_r_feature 1185.220947265625
+main criterion 15.716228485107422
+------------iteration 500----------
+total loss 71.85298156738281
+loss_r_feature 1129.0733642578125
+main criterion 15.189598083496094
+------------iteration 600----------
+total loss 66.42012023925781
+loss_r_feature 1035.7247314453125
+main criterion 14.43458366394043
+------------iteration 700----------
+total loss 59.86758804321289
+loss_r_feature 924.9957885742188
+main criterion 13.434074401855469
+------------iteration 800----------
+total loss 56.16840744018555
+loss_r_feature 859.642822265625
+main criterion 13.0136137008667
+------------iteration 900----------
+total loss 48.06481170654297
+loss_r_feature 726.4832763671875
+main criterion 11.590203285217285
+------------iteration 1000----------
+total loss 42.882049560546875
+loss_r_feature 650.0951538085938
+main criterion 10.243057250976562
+------------iteration 1100----------
+total loss 41.40446472167969
+loss_r_feature 627.4793701171875
+main criterion 9.906356811523438
+------------iteration 1200----------
+total loss 37.987369537353516
+loss_r_feature 574.9114379882812
+main criterion 9.131927490234375
+------------iteration 1300----------
+total loss 33.02742385864258
+loss_r_feature 495.9248352050781
+main criterion 8.134614944458008
+------------iteration 1400----------
+total loss 29.911483764648438
+loss_r_feature 442.861572265625
+main criterion 7.685466766357422
+------------iteration 1500----------
+total loss 27.497732162475586
+loss_r_feature 401.53192138671875
+main criterion 7.346683979034424
+------------iteration 1600----------
+total loss 24.43909454345703
+loss_r_feature 346.4340515136719
+main criterion 7.050425052642822
+------------iteration 1700----------
+total loss 22.412948608398438
+loss_r_feature 308.27044677734375
+main criterion 6.936623573303223
+------------iteration 1800----------
+total loss 20.94816780090332
+loss_r_feature 280.2303161621094
+main criterion 6.876075267791748
+------------iteration 1900----------
+total loss 19.933330535888672
+loss_r_feature 260.39190673828125
+main criterion 6.853108882904053
+------------iteration 2000----------
+total loss 19.676910400390625
+loss_r_feature 255.13490295410156
+main criterion 6.860270977020264
+------------iteration 2100----------
+total loss 101.4172134399414
+loss_r_feature 1529.6905517578125
+main criterion 24.449697494506836
+------------iteration 2200----------
+total loss 92.96334838867188
+loss_r_feature 1391.335205078125
+main criterion 22.927865982055664
+------------iteration 2300----------
+total loss 79.24446105957031
+loss_r_feature 1170.817138671875
+main criterion 20.28128433227539
+------------iteration 2400----------
+total loss 71.40064239501953
+loss_r_feature 1052.83203125
+main criterion 18.3937931060791
+------------iteration 2500----------
+total loss 59.461952209472656
+loss_r_feature 871.7001342773438
+main criterion 15.577675819396973
+------------iteration 2600----------
+total loss 47.01349639892578
+loss_r_feature 701.4881591796875
+main criterion 11.709611892700195
+------------iteration 2700----------
+total loss 35.071380615234375
+loss_r_feature 524.4402465820312
+main criterion 8.68488597869873
+------------iteration 2800----------
+total loss 26.738025665283203
+loss_r_feature 387.4217224121094
+main criterion 7.249162197113037
+------------iteration 2900----------
+total loss 21.784725189208984
+loss_r_feature 297.7267150878906
+main criterion 6.800235748291016
+------------iteration 3000----------
+total loss 20.665340423583984
+loss_r_feature 276.44415283203125
+main criterion 6.748850345611572
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50_combined_with_decay.pth.tar', bs=42, comment='', do_flip=False, epochs=20000, exp_name='exp4_layer_43', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=0, specified_layer=43, stop_layer=None, store_best_images=True, targets='1,2,11,25,63,92,94,107,151,154,207,250,270,277,283,292,340,288,289,344,24,386,466,599,607,776,907,955,972,937,930,904,890,845,763,661,499,490,489,479,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+==> Resuming from checkpoint..
+Deep inversion class generation
+Confirming BN layer 43 specified
+get_images call
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+------------iteration 100----------
+total loss 501.369873046875
+loss_r_feature 9680.1611328125
+main criterion 17.12078285217285
+------------iteration 200----------
+total loss 457.5379638671875
+loss_r_feature 8822.5546875
+main criterion 16.1663818359375
+------------iteration 300----------
+total loss 489.4043273925781
+loss_r_feature 9442.9580078125
+main criterion 17.0198917388916
+------------iteration 400----------
+total loss 465.840576171875
+loss_r_feature 8982.8642578125
+main criterion 16.46971893310547
+------------iteration 500----------
+total loss 421.8357849121094
+loss_r_feature 8120.4365234375
+main criterion 15.595117568969727
+------------iteration 600----------
+total loss 398.1764831542969
+loss_r_feature 7659.3369140625
+main criterion 15.00013542175293
+------------iteration 700----------
+total loss 334.638427734375
+loss_r_feature 6413.724609375
+main criterion 13.762449264526367
+------------iteration 800----------
+total loss 289.4067077636719
+loss_r_feature 5524.3330078125
+main criterion 13.01826000213623
+------------iteration 900----------
+total loss 224.38882446289062
+loss_r_feature 4248.02783203125
+main criterion 11.834657669067383
+------------iteration 1000----------
+total loss 156.38954162597656
+loss_r_feature 2920.5478515625
+main criterion 10.231916427612305
+------------iteration 1100----------
+total loss 142.1223907470703
+loss_r_feature 2644.48388671875
+main criterion 9.785661697387695
+------------iteration 1200----------
+total loss 103.53888702392578
+loss_r_feature 1890.8818359375
+main criterion 8.902789115905762
+------------iteration 1300----------
+total loss 62.34368896484375
+loss_r_feature 1086.4708251953125
+main criterion 7.950176239013672
+------------iteration 1400----------
+total loss 43.601829528808594
+loss_r_feature 719.9020385742188
+main criterion 7.554261684417725
+------------iteration 1500----------
+total loss 36.82586669921875
+loss_r_feature 587.8992309570312
+main criterion 7.38727331161499
+------------iteration 1600----------
+total loss 27.322996139526367
+loss_r_feature 405.5084228515625
+main criterion 7.019891738891602
+------------iteration 1700----------
+total loss 22.55290412902832
+loss_r_feature 312.2154541015625
+main criterion 6.922596454620361
+------------iteration 1800----------
+total loss 19.19706916809082
+loss_r_feature 246.25851440429688
+main criterion 6.8689117431640625
+------------iteration 1900----------
+total loss 16.860946655273438
+loss_r_feature 200.01522827148438
+main criterion 6.8461689949035645
+------------iteration 2000----------
+total loss 16.064678192138672
+loss_r_feature 183.9968719482422
+main criterion 6.851179599761963
+------------iteration 2100----------
+total loss 507.52313232421875
+loss_r_feature 9644.1328125
+main criterion 24.830215454101562
+------------iteration 2200----------
+total loss 496.87158203125
+loss_r_feature 9429.498046875
+main criterion 24.890424728393555
+------------iteration 2300----------
+total loss 429.87188720703125
+loss_r_feature 8145.04150390625
+main criterion 22.157608032226562
+------------iteration 2400----------
+total loss 352.29632568359375
+loss_r_feature 6654.65234375
+main criterion 19.177780151367188
+------------iteration 2500----------
+total loss 229.1039581298828
+loss_r_feature 4261.70751953125
+main criterion 15.724454879760742
+------------iteration 2600----------
+total loss 123.65830993652344
+loss_r_feature 2238.706298828125
+main criterion 11.519042015075684
+------------iteration 2700----------
+total loss 56.16323471069336
+loss_r_feature 952.3009033203125
+main criterion 8.430405616760254
+------------iteration 2800----------
+total loss 31.56036376953125
+loss_r_feature 486.5750732421875
+main criterion 7.172544002532959
+------------iteration 2900----------
+total loss 20.356826782226562
+loss_r_feature 269.13226318359375
+main criterion 6.872267246246338
+------------iteration 3000----------
+total loss 16.44769859313965
+loss_r_feature 191.68341064453125
+main criterion 6.840712547302246
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50_combined_with_decay.pth.tar', bs=42, comment='', do_flip=False, epochs=20000, exp_name='exp4_layer_50', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=0, specified_layer=50, stop_layer=None, store_best_images=True, targets='1,2,11,25,63,92,94,107,151,154,207,250,270,277,283,292,340,288,289,344,24,386,466,599,607,776,907,955,972,937,930,904,890,845,763,661,499,490,489,479,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+==> Resuming from checkpoint..
+Deep inversion class generation
+Confirming BN layer 50 specified
+get_images call
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+------------iteration 100----------
+total loss 2015.5655517578125
+loss_r_feature 39933.25
+main criterion 18.638744354248047
+------------iteration 200----------
+total loss 1862.128662109375
+loss_r_feature 36882.33984375
+main criterion 17.743276596069336
+------------iteration 300----------
+total loss 2004.3177490234375
+loss_r_feature 39707.078125
+main criterion 18.7010440826416
+------------iteration 400----------
+total loss 1848.3841552734375
+loss_r_feature 36603.296875
+main criterion 17.966934204101562
+------------iteration 500----------
+total loss 1700.5142822265625
+loss_r_feature 33662.29296875
+main criterion 17.15677833557129
+------------iteration 600----------
+total loss 1540.7501220703125
+loss_r_feature 30485.6640625
+main criterion 16.23744010925293
+------------iteration 700----------
+total loss 1282.06640625
+loss_r_feature 25340.2734375
+main criterion 14.842482566833496
+------------iteration 800----------
+total loss 1107.1258544921875
+loss_r_feature 21857.537109375
+main criterion 14.058341979980469
+------------iteration 900----------
+total loss 843.9161987304688
+loss_r_feature 16620.79296875
+main criterion 12.707181930541992
+------------iteration 1000----------
+total loss 578.0718383789062
+loss_r_feature 11338.478515625
+main criterion 11.001838684082031
+------------iteration 1100----------
+total loss 496.5241394042969
+loss_r_feature 9720.794921875
+main criterion 10.359670639038086
+------------iteration 1200----------
+total loss 350.8296813964844
+loss_r_feature 6826.748046875
+main criterion 9.389869689941406
+------------iteration 1300----------
+total loss 201.06228637695312
+loss_r_feature 3853.56201171875
+main criterion 8.304841041564941
+------------iteration 1400----------
+total loss 133.66468811035156
+loss_r_feature 2516.68115234375
+main criterion 7.770717144012451
+------------iteration 1500----------
+total loss 79.11676788330078
+loss_r_feature 1433.82080078125
+main criterion 7.3836445808410645
+------------iteration 1600----------
+total loss 40.87104415893555
+loss_r_feature 674.64892578125
+main criterion 7.111271381378174
+------------iteration 1700----------
+total loss 28.22014617919922
+loss_r_feature 424.24176025390625
+main criterion 6.99143123626709
+------------iteration 1800----------
+total loss 22.238826751708984
+loss_r_feature 306.75732421875
+main criterion 6.891215801239014
+------------iteration 1900----------
+total loss 18.166948318481445
+loss_r_feature 225.98289489746094
+main criterion 6.860926151275635
+------------iteration 2000----------
+total loss 16.784387588500977
+loss_r_feature 198.36856079101562
+main criterion 6.859477519989014
+------------iteration 2100----------
+total loss 2564.8310546875
+loss_r_feature 50704.3203125
+main criterion 29.041603088378906
+------------iteration 2200----------
+total loss 2792.06396484375
+loss_r_feature 55205.7265625
+main criterion 31.136945724487305
+------------iteration 2300----------
+total loss 2360.09326171875
+loss_r_feature 46641.09765625
+main criterion 27.45186424255371
+------------iteration 2400----------
+total loss 2062.424560546875
+loss_r_feature 40748.1953125
+main criterion 24.509286880493164
+------------iteration 2500----------
+total loss 1263.9134521484375
+loss_r_feature 24872.490234375
+main criterion 19.906362533569336
+------------iteration 2600----------
+total loss 633.5745849609375
+loss_r_feature 12379.5947265625
+main criterion 14.323244094848633
+------------iteration 2700----------
+total loss 246.09979248046875
+loss_r_feature 4724.712890625
+main criterion 9.702394485473633
+------------iteration 2800----------
+total loss 73.69085693359375
+loss_r_feature 1323.244873046875
+main criterion 7.454588890075684
+------------iteration 2900----------
+total loss 27.6591796875
+loss_r_feature 414.92462158203125
+main criterion 6.888651371002197
+------------iteration 3000----------
+total loss 19.7335147857666
+loss_r_feature 257.94293212890625
+main criterion 6.8238606452941895

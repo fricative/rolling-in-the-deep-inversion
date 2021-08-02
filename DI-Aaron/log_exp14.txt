@@ -1,0 +1,558 @@
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50', bs=40, comment='', do_flip=False, epochs=20000, exp_name='exp14_IN_layer_5', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=1, specified_layer=5, stop_layer=None, store_best_images=True, targets='1,11,63,94,151,207,250,277,344,466,500,776,907,890,845,763,661,499,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+loading torchvision model for inversion with the name: resnet50
+Downloading: "https://download.pytorch.org/models/resnet50-0676ba61.pth" to /root/.cache/torch/hub/checkpoints/resnet50-0676ba61.pth
+  0% 0.00/97.8M [00:00<?, ?B/s]  1% 1.05M/97.8M [00:00<00:09, 11.1MB/s] 14% 13.5M/97.8M [00:00<00:05, 15.2MB/s] 28% 27.6M/97.8M [00:00<00:03, 20.9MB/s] 44% 42.8M/97.8M [00:00<00:02, 28.2MB/s] 59% 58.0M/97.8M [00:00<00:01, 37.5MB/s] 75% 73.2M/97.8M [00:00<00:00, 48.6MB/s] 90% 88.2M/97.8M [00:00<00:00, 61.3MB/s]100% 97.8M/97.8M [00:00<00:00, 134MB/s] 
+==> Resuming from checkpoint..
+Deep inversion class generation
+Confirming BN layer 5 specified
+get_images call
+------------Target classes----------
+class 1: goldfish, Carassius auratus
+class 11: goldfinch, Carduelis carduelis
+class 63: Indian cobra, Naja naja
+class 94: hummingbird
+class 151: Chihuahua
+class 207: golden retriever
+class 250: Siberian husky
+class 277: red fox, Vulpes vulpes
+class 344: hippopotamus, hippo, river horse, Hippopotamus amphibius
+class 466: bullet train, bullet
+class 500: cliff dwelling
+class 776: sax, saxophone
+class 907: wine bottle
+class 890: volleyball
+class 845: syringe
+class 763: revolver, six-gun, six-shooter
+class 661: Model T
+class 499: cleaver, meat cleaver, chopper
+class 430: basketball
+class 402: acoustic guitar
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+------------iteration 200----------
+total loss 1.6355329751968384
+loss_r_feature 17.55193519592285
+main criterion 0.23525817692279816
+------------iteration 400----------
+total loss 0.7780863642692566
+loss_r_feature 8.453628540039062
+main criterion 0.0009349550236947834
+------------iteration 600----------
+total loss 0.4833829998970032
+loss_r_feature 3.6640357971191406
+main criterion 0.0003877443086821586
+------------iteration 800----------
+total loss 0.40045666694641113
+loss_r_feature 2.5533578395843506
+main criterion 0.0001600836985744536
+------------iteration 1000----------
+total loss 0.4345894455909729
+loss_r_feature 3.29815673828125
+main criterion 0.00011030935274902731
+------------iteration 1200----------
+total loss 0.32578298449516296
+loss_r_feature 1.7510104179382324
+main criterion 2.5953568183467723e-05
+------------iteration 1400----------
+total loss 0.28846031427383423
+loss_r_feature 1.0354576110839844
+main criterion 1.7508544260635972e-05
+------------iteration 1600----------
+total loss 0.2727181613445282
+loss_r_feature 0.723301887512207
+main criterion 1.5490853911614977e-05
+------------iteration 1800----------
+total loss 0.25128620862960815
+loss_r_feature 0.31000372767448425
+main criterion 1.2346968105703127e-05
+------------iteration 2000----------
+total loss 0.24632132053375244
+loss_r_feature 0.2273007482290268
+main criterion 1.3035372830927372e-05
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50_SIN.pth.tar', bs=40, comment='', do_flip=False, epochs=20000, exp_name='exp14_SIN_layer_5', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=1, specified_layer=5, stop_layer=None, store_best_images=True, targets='1,11,63,94,151,207,250,277,344,466,500,776,907,890,845,763,661,499,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+==> Resuming from checkpoint..
+=> loading checkpoint './resnet50_SIN.pth.tar'
+=> loaded checkpoint './resnet50_SIN.pth.tar' (epoch 60)
+Deep inversion class generation
+Confirming BN layer 5 specified
+get_images call
+------------Target classes----------
+class 1: goldfish, Carassius auratus
+class 11: goldfinch, Carduelis carduelis
+class 63: Indian cobra, Naja naja
+class 94: hummingbird
+class 151: Chihuahua
+class 207: golden retriever
+class 250: Siberian husky
+class 277: red fox, Vulpes vulpes
+class 344: hippopotamus, hippo, river horse, Hippopotamus amphibius
+class 466: bullet train, bullet
+class 500: cliff dwelling
+class 776: sax, saxophone
+class 907: wine bottle
+class 890: volleyball
+class 845: syringe
+class 763: revolver, six-gun, six-shooter
+class 661: Model T
+class 499: cleaver, meat cleaver, chopper
+class 430: basketball
+class 402: acoustic guitar
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+------------iteration 200----------
+total loss 1.5025532245635986
+loss_r_feature 21.306859970092773
+main criterion 0.005516159348189831
+------------iteration 400----------
+total loss 1.116745114326477
+loss_r_feature 14.659806251525879
+main criterion 0.011700310744345188
+------------iteration 600----------
+total loss 0.4760861098766327
+loss_r_feature 4.062174320220947
+main criterion 0.0003913901746273041
+------------iteration 800----------
+total loss 0.3880768418312073
+loss_r_feature 3.461977243423462
+main criterion 3.859113348880783e-05
+------------iteration 1000----------
+total loss 0.29783549904823303
+loss_r_feature 1.8893709182739258
+main criterion 3.240863588871434e-05
+------------iteration 1200----------
+total loss 0.26445433497428894
+loss_r_feature 1.287827968597412
+main criterion 3.3242547942791134e-05
+------------iteration 1400----------
+total loss 0.2785445749759674
+loss_r_feature 1.587100625038147
+main criterion 2.2288106265477836e-05
+------------iteration 1600----------
+total loss 0.24185998737812042
+loss_r_feature 1.0216563940048218
+main criterion 1.641177004785277e-05
+------------iteration 1800----------
+total loss 0.20639589428901672
+loss_r_feature 0.28459638357162476
+main criterion 1.2266433259355836e-05
+------------iteration 2000----------
+total loss 0.20199400186538696
+loss_r_feature 0.21671602129936218
+main criterion 1.4960534826968797e-05
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50', bs=40, comment='', do_flip=False, epochs=20000, exp_name='exp14_IN_layer_15', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=1, specified_layer=15, stop_layer=None, store_best_images=True, targets='1,11,63,94,151,207,250,277,344,466,500,776,907,890,845,763,661,499,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+loading torchvision model for inversion with the name: resnet50
+==> Resuming from checkpoint..
+Deep inversion class generation
+Confirming BN layer 15 specified
+get_images call
+------------Target classes----------
+class 1: goldfish, Carassius auratus
+class 11: goldfinch, Carduelis carduelis
+class 63: Indian cobra, Naja naja
+class 94: hummingbird
+class 151: Chihuahua
+class 207: golden retriever
+class 250: Siberian husky
+class 277: red fox, Vulpes vulpes
+class 344: hippopotamus, hippo, river horse, Hippopotamus amphibius
+class 466: bullet train, bullet
+class 500: cliff dwelling
+class 776: sax, saxophone
+class 907: wine bottle
+class 890: volleyball
+class 845: syringe
+class 763: revolver, six-gun, six-shooter
+class 661: Model T
+class 499: cleaver, meat cleaver, chopper
+class 430: basketball
+class 402: acoustic guitar
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+------------iteration 200----------
+total loss 1.160745620727539
+loss_r_feature 13.593731880187988
+main criterion 0.0029626956675201654
+------------iteration 400----------
+total loss 0.7934777140617371
+loss_r_feature 8.506305694580078
+main criterion 0.012142516672611237
+------------iteration 600----------
+total loss 0.6031058430671692
+loss_r_feature 6.432347774505615
+main criterion 0.0005098769906908274
+------------iteration 800----------
+total loss 0.47934961318969727
+loss_r_feature 4.972296714782715
+main criterion 0.00010634145291987807
+------------iteration 1000----------
+total loss 0.416816383600235
+loss_r_feature 4.189289569854736
+main criterion 6.195770401973277e-05
+------------iteration 1200----------
+total loss 0.35324034094810486
+loss_r_feature 3.1382150650024414
+main criterion 0.0001608044985914603
+------------iteration 1400----------
+total loss 0.3392654359340668
+loss_r_feature 3.114304542541504
+main criterion 4.767690916196443e-05
+------------iteration 1600----------
+total loss 0.284729927778244
+loss_r_feature 2.324497699737549
+main criterion 6.795115041313693e-05
+------------iteration 1800----------
+total loss 0.2655410170555115
+loss_r_feature 2.0600554943084717
+main criterion 7.103417738107964e-05
+------------iteration 2000----------
+total loss 0.26201391220092773
+loss_r_feature 2.0091845989227295
+main criterion 5.3699077398050576e-05
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50_SIN.pth.tar', bs=40, comment='', do_flip=False, epochs=20000, exp_name='exp14_SIN_layer_15', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=1, specified_layer=15, stop_layer=None, store_best_images=True, targets='1,11,63,94,151,207,250,277,344,466,500,776,907,890,845,763,661,499,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+==> Resuming from checkpoint..
+=> loading checkpoint './resnet50_SIN.pth.tar'
+=> loaded checkpoint './resnet50_SIN.pth.tar' (epoch 60)
+Deep inversion class generation
+Confirming BN layer 15 specified
+get_images call
+------------Target classes----------
+class 1: goldfish, Carassius auratus
+class 11: goldfinch, Carduelis carduelis
+class 63: Indian cobra, Naja naja
+class 94: hummingbird
+class 151: Chihuahua
+class 207: golden retriever
+class 250: Siberian husky
+class 277: red fox, Vulpes vulpes
+class 344: hippopotamus, hippo, river horse, Hippopotamus amphibius
+class 466: bullet train, bullet
+class 500: cliff dwelling
+class 776: sax, saxophone
+class 907: wine bottle
+class 890: volleyball
+class 845: syringe
+class 763: revolver, six-gun, six-shooter
+class 661: Model T
+class 499: cleaver, meat cleaver, chopper
+class 430: basketball
+class 402: acoustic guitar
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+------------iteration 200----------
+total loss 0.8821819424629211
+loss_r_feature 11.610586166381836
+main criterion 0.001690445700660348
+------------iteration 400----------
+total loss 0.6524220705032349
+loss_r_feature 7.956686973571777
+main criterion 0.0005207055946812034
+------------iteration 600----------
+total loss 0.7631050944328308
+loss_r_feature 10.171338081359863
+main criterion 0.0003834338567685336
+------------iteration 800----------
+total loss 0.5652908682823181
+loss_r_feature 6.660834312438965
+main criterion 0.0005849968874827027
+------------iteration 1000----------
+total loss 0.8649762272834778
+loss_r_feature 12.81802749633789
+main criterion 0.00026838123449124396
+------------iteration 1200----------
+total loss 0.5879287123680115
+loss_r_feature 7.54413366317749
+main criterion 0.00032984913559630513
+------------iteration 1400----------
+total loss 0.5466300249099731
+loss_r_feature 7.032496929168701
+main criterion 9.767738811206073e-05
+------------iteration 1600----------
+total loss 0.30691632628440857
+loss_r_feature 2.501513957977295
+main criterion 8.419332152698189e-05
+------------iteration 1800----------
+total loss 0.27652740478515625
+loss_r_feature 1.9421172142028809
+main criterion 0.0001257970288861543
+------------iteration 2000----------
+total loss 0.26028355956077576
+loss_r_feature 1.6221776008605957
+main criterion 0.00013347124331630766
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50', bs=40, comment='', do_flip=False, epochs=20000, exp_name='exp14_IN_layer_28', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=1, specified_layer=28, stop_layer=None, store_best_images=True, targets='1,11,63,94,151,207,250,277,344,466,500,776,907,890,845,763,661,499,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+loading torchvision model for inversion with the name: resnet50
+==> Resuming from checkpoint..
+Deep inversion class generation
+Confirming BN layer 28 specified
+get_images call
+------------Target classes----------
+class 1: goldfish, Carassius auratus
+class 11: goldfinch, Carduelis carduelis
+class 63: Indian cobra, Naja naja
+class 94: hummingbird
+class 151: Chihuahua
+class 207: golden retriever
+class 250: Siberian husky
+class 277: red fox, Vulpes vulpes
+class 344: hippopotamus, hippo, river horse, Hippopotamus amphibius
+class 466: bullet train, bullet
+class 500: cliff dwelling
+class 776: sax, saxophone
+class 907: wine bottle
+class 890: volleyball
+class 845: syringe
+class 763: revolver, six-gun, six-shooter
+class 661: Model T
+class 499: cleaver, meat cleaver, chopper
+class 430: basketball
+class 402: acoustic guitar
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+------------iteration 200----------
+total loss 1.3189702033996582
+loss_r_feature 15.403266906738281
+main criterion 0.00202365149743855
+------------iteration 400----------
+total loss 0.8900083303451538
+loss_r_feature 10.675435066223145
+main criterion 0.0010573528707027435
+------------iteration 600----------
+total loss 0.7477489709854126
+loss_r_feature 8.470925331115723
+main criterion 0.0003796076634898782
+------------iteration 800----------
+total loss 0.5875793099403381
+loss_r_feature 6.153076171875
+main criterion 0.00034918548772111535
+------------iteration 1000----------
+total loss 0.456131249666214
+loss_r_feature 4.333590984344482
+main criterion 0.00027406576555222273
+------------iteration 1200----------
+total loss 0.4399389922618866
+loss_r_feature 4.260705471038818
+main criterion 0.00022136405459605157
+------------iteration 1400----------
+total loss 0.35306793451309204
+loss_r_feature 2.9709038734436035
+main criterion 0.00013158589717932045
+------------iteration 1600----------
+total loss 0.2752542793750763
+loss_r_feature 1.8455560207366943
+main criterion 0.00012622478243429214
+------------iteration 1800----------
+total loss 0.25037500262260437
+loss_r_feature 1.6689248085021973
+main criterion 0.00013199997192714363
+------------iteration 2000----------
+total loss 0.23094061017036438
+loss_r_feature 1.3652772903442383
+main criterion 0.00014175765682011843
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50_SIN.pth.tar', bs=40, comment='', do_flip=False, epochs=20000, exp_name='exp14_SIN_layer_28', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=1, specified_layer=28, stop_layer=None, store_best_images=True, targets='1,11,63,94,151,207,250,277,344,466,500,776,907,890,845,763,661,499,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+==> Resuming from checkpoint..
+=> loading checkpoint './resnet50_SIN.pth.tar'
+=> loaded checkpoint './resnet50_SIN.pth.tar' (epoch 60)
+Deep inversion class generation
+Confirming BN layer 28 specified
+get_images call
+------------Target classes----------
+class 1: goldfish, Carassius auratus
+class 11: goldfinch, Carduelis carduelis
+class 63: Indian cobra, Naja naja
+class 94: hummingbird
+class 151: Chihuahua
+class 207: golden retriever
+class 250: Siberian husky
+class 277: red fox, Vulpes vulpes
+class 344: hippopotamus, hippo, river horse, Hippopotamus amphibius
+class 466: bullet train, bullet
+class 500: cliff dwelling
+class 776: sax, saxophone
+class 907: wine bottle
+class 890: volleyball
+class 845: syringe
+class 763: revolver, six-gun, six-shooter
+class 661: Model T
+class 499: cleaver, meat cleaver, chopper
+class 430: basketball
+class 402: acoustic guitar
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+------------iteration 200----------
+total loss 1.0299400091171265
+loss_r_feature 13.792243957519531
+main criterion 0.0009766314178705215
+------------iteration 400----------
+total loss 0.8617843985557556
+loss_r_feature 11.122149467468262
+main criterion 0.0005281987832859159
+------------iteration 600----------
+total loss 0.8022633790969849
+loss_r_feature 10.657320976257324
+main criterion 0.0007349256193265319
+------------iteration 800----------
+total loss 0.6572225093841553
+loss_r_feature 7.822439670562744
+main criterion 0.00030934892129153013
+------------iteration 1000----------
+total loss 0.7348860502243042
+loss_r_feature 9.756387710571289
+main criterion 0.0013435098808258772
+------------iteration 1200----------
+total loss 0.465653657913208
+loss_r_feature 4.936873912811279
+main criterion 0.00024346150166820735
+------------iteration 1400----------
+total loss 0.453032910823822
+loss_r_feature 5.09002161026001
+main criterion 0.0002453424094710499
+------------iteration 1600----------
+total loss 0.34206435084342957
+loss_r_feature 3.170433521270752
+main criterion 0.00019317277474328876
+------------iteration 1800----------
+total loss 0.2759148180484772
+loss_r_feature 2.075904607772827
+main criterion 0.00016811041859909892
+------------iteration 2000----------
+total loss 0.24929478764533997
+loss_r_feature 1.6014361381530762
+main criterion 0.00015629666449967772
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50', bs=40, comment='', do_flip=False, epochs=20000, exp_name='exp14_IN_layer_47', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=1, specified_layer=47, stop_layer=None, store_best_images=True, targets='1,11,63,94,151,207,250,277,344,466,500,776,907,890,845,763,661,499,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+loading torchvision model for inversion with the name: resnet50
+==> Resuming from checkpoint..
+Deep inversion class generation
+Confirming BN layer 47 specified
+get_images call
+------------Target classes----------
+class 1: goldfish, Carassius auratus
+class 11: goldfinch, Carduelis carduelis
+class 63: Indian cobra, Naja naja
+class 94: hummingbird
+class 151: Chihuahua
+class 207: golden retriever
+class 250: Siberian husky
+class 277: red fox, Vulpes vulpes
+class 344: hippopotamus, hippo, river horse, Hippopotamus amphibius
+class 466: bullet train, bullet
+class 500: cliff dwelling
+class 776: sax, saxophone
+class 907: wine bottle
+class 890: volleyball
+class 845: syringe
+class 763: revolver, six-gun, six-shooter
+class 661: Model T
+class 499: cleaver, meat cleaver, chopper
+class 430: basketball
+class 402: acoustic guitar
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+------------iteration 200----------
+total loss 0.695178210735321
+loss_r_feature 4.0995941162109375
+main criterion 0.004604916088283062
+------------iteration 400----------
+total loss 0.6472504138946533
+loss_r_feature 3.8720152378082275
+main criterion 0.0006400029524229467
+------------iteration 600----------
+total loss 0.526462733745575
+loss_r_feature 2.9182419776916504
+main criterion 0.0007638575625605881
+------------iteration 800----------
+total loss 0.49087396264076233
+loss_r_feature 2.117197275161743
+main criterion 0.0004134097252972424
+------------iteration 1000----------
+total loss 0.4631081223487854
+loss_r_feature 2.261066198348999
+main criterion 0.00038173014763742685
+------------iteration 1200----------
+total loss 0.3802896738052368
+loss_r_feature 1.8554185628890991
+main criterion 0.00039049185579642653
+------------iteration 1400----------
+total loss 0.35842081904411316
+loss_r_feature 2.5565316677093506
+main criterion 0.00037198251811787486
+------------iteration 1600----------
+total loss 0.21912603080272675
+loss_r_feature 0.8342858552932739
+main criterion 0.00030626027728430927
+------------iteration 1800----------
+total loss 0.1687726229429245
+loss_r_feature 0.7065486311912537
+main criterion 0.0002160925359930843
+------------iteration 2000----------
+total loss 0.14443865418434143
+loss_r_feature 0.46968650817871094
+main criterion 0.00017496958025731146
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50_SIN.pth.tar', bs=40, comment='', do_flip=False, epochs=20000, exp_name='exp14_SIN_layer_47', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=1, specified_layer=47, stop_layer=None, store_best_images=True, targets='1,11,63,94,151,207,250,277,344,466,500,776,907,890,845,763,661,499,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+==> Resuming from checkpoint..
+=> loading checkpoint './resnet50_SIN.pth.tar'
+=> loaded checkpoint './resnet50_SIN.pth.tar' (epoch 60)
+Deep inversion class generation
+Confirming BN layer 47 specified
+get_images call
+------------Target classes----------
+class 1: goldfish, Carassius auratus
+class 11: goldfinch, Carduelis carduelis
+class 63: Indian cobra, Naja naja
+class 94: hummingbird
+class 151: Chihuahua
+class 207: golden retriever
+class 250: Siberian husky
+class 277: red fox, Vulpes vulpes
+class 344: hippopotamus, hippo, river horse, Hippopotamus amphibius
+class 466: bullet train, bullet
+class 500: cliff dwelling
+class 776: sax, saxophone
+class 907: wine bottle
+class 890: volleyball
+class 845: syringe
+class 763: revolver, six-gun, six-shooter
+class 661: Model T
+class 499: cleaver, meat cleaver, chopper
+class 430: basketball
+class 402: acoustic guitar
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+------------iteration 200----------
+total loss 0.6864204406738281
+loss_r_feature 4.276042938232422
+main criterion 0.0008838033536449075
+------------iteration 400----------
+total loss 0.6857659220695496
+loss_r_feature 4.465012073516846
+main criterion 0.0011799089843407273
+------------iteration 600----------
+total loss 0.6676892638206482
+loss_r_feature 4.1292595863342285
+main criterion 0.0007883051293902099
+------------iteration 800----------
+total loss 0.5643325448036194
+loss_r_feature 3.1612038612365723
+main criterion 0.0007357980939559639
+------------iteration 1000----------
+total loss 0.5090954303741455
+loss_r_feature 2.7103686332702637
+main criterion 0.0005585532635450363
+------------iteration 1200----------
+total loss 0.5126863121986389
+loss_r_feature 3.6740598678588867
+main criterion 0.0027287406846880913
+------------iteration 1400----------
+total loss 0.3610004782676697
+loss_r_feature 1.870273232460022
+main criterion 0.00038873773883096874
+------------iteration 1600----------
+total loss 0.276330828666687
+loss_r_feature 1.2470930814743042
+main criterion 0.0003794777439907193
+------------iteration 1800----------
+total loss 0.2097664773464203
+loss_r_feature 0.6999638080596924
+main criterion 0.0002114233502652496
+------------iteration 2000----------
+total loss 0.19082754850387573
+loss_r_feature 0.5271548628807068
+main criterion 0.00018340596579946578
