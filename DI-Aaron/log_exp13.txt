@@ -1,0 +1,1062 @@
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50', bs=20, comment='', do_flip=False, epochs=20000, exp_name='exp13_IN_layer_4', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=0, specified_layer=4, stop_layer=None, store_best_images=True, targets='1,11,63,94,151,207,250,277,344,466,500,776,907,890,845,763,661,499,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+loading torchvision model for inversion with the name: resnet50
+==> Resuming from checkpoint..
+Deep inversion class generation
+Confirming BN layer 4 specified
+get_images call
+------------Target classes----------
+class 1: goldfish, Carassius auratus
+class 11: goldfinch, Carduelis carduelis
+class 63: Indian cobra, Naja naja
+class 94: hummingbird
+class 151: Chihuahua
+class 207: golden retriever
+class 250: Siberian husky
+class 277: red fox, Vulpes vulpes
+class 344: hippopotamus, hippo, river horse, Hippopotamus amphibius
+class 466: bullet train, bullet
+class 500: cliff dwelling
+class 776: sax, saxophone
+class 907: wine bottle
+class 890: volleyball
+class 845: syringe
+class 763: revolver, six-gun, six-shooter
+class 661: Model T
+class 499: cleaver, meat cleaver, chopper
+class 430: basketball
+class 402: acoustic guitar
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50_SIN.pth.tar', bs=20, comment='', do_flip=False, epochs=20000, exp_name='exp13_SIN_layer_4', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=0, specified_layer=4, stop_layer=None, store_best_images=True, targets='1,11,63,94,151,207,250,277,344,466,500,776,907,890,845,763,661,499,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+==> Resuming from checkpoint..
+=> loading checkpoint './resnet50_SIN.pth.tar'
+=> loaded checkpoint './resnet50_SIN.pth.tar' (epoch 60)
+Deep inversion class generation
+Confirming BN layer 4 specified
+get_images call
+------------Target classes----------
+class 1: goldfish, Carassius auratus
+class 11: goldfinch, Carduelis carduelis
+class 63: Indian cobra, Naja naja
+class 94: hummingbird
+class 151: Chihuahua
+class 207: golden retriever
+class 250: Siberian husky
+class 277: red fox, Vulpes vulpes
+class 344: hippopotamus, hippo, river horse, Hippopotamus amphibius
+class 466: bullet train, bullet
+class 500: cliff dwelling
+class 776: sax, saxophone
+class 907: wine bottle
+class 890: volleyball
+class 845: syringe
+class 763: revolver, six-gun, six-shooter
+class 661: Model T
+class 499: cleaver, meat cleaver, chopper
+class 430: basketball
+class 402: acoustic guitar
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50', bs=20, comment='', do_flip=False, epochs=20000, exp_name='exp13_IN_layer_5', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=0, specified_layer=5, stop_layer=None, store_best_images=True, targets='1,11,63,94,151,207,250,277,344,466,500,776,907,890,845,763,661,499,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+loading torchvision model for inversion with the name: resnet50
+==> Resuming from checkpoint..
+Deep inversion class generation
+Confirming BN layer 5 specified
+get_images call
+------------Target classes----------
+class 1: goldfish, Carassius auratus
+class 11: goldfinch, Carduelis carduelis
+class 63: Indian cobra, Naja naja
+class 94: hummingbird
+class 151: Chihuahua
+class 207: golden retriever
+class 250: Siberian husky
+class 277: red fox, Vulpes vulpes
+class 344: hippopotamus, hippo, river horse, Hippopotamus amphibius
+class 466: bullet train, bullet
+class 500: cliff dwelling
+class 776: sax, saxophone
+class 907: wine bottle
+class 890: volleyball
+class 845: syringe
+class 763: revolver, six-gun, six-shooter
+class 661: Model T
+class 499: cleaver, meat cleaver, chopper
+class 430: basketball
+class 402: acoustic guitar
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50_SIN.pth.tar', bs=20, comment='', do_flip=False, epochs=20000, exp_name='exp13_SIN_layer_5', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=0, specified_layer=5, stop_layer=None, store_best_images=True, targets='1,11,63,94,151,207,250,277,344,466,500,776,907,890,845,763,661,499,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+==> Resuming from checkpoint..
+=> loading checkpoint './resnet50_SIN.pth.tar'
+=> loaded checkpoint './resnet50_SIN.pth.tar' (epoch 60)
+Deep inversion class generation
+Confirming BN layer 5 specified
+get_images call
+------------Target classes----------
+class 1: goldfish, Carassius auratus
+class 11: goldfinch, Carduelis carduelis
+class 63: Indian cobra, Naja naja
+class 94: hummingbird
+class 151: Chihuahua
+class 207: golden retriever
+class 250: Siberian husky
+class 277: red fox, Vulpes vulpes
+class 344: hippopotamus, hippo, river horse, Hippopotamus amphibius
+class 466: bullet train, bullet
+class 500: cliff dwelling
+class 776: sax, saxophone
+class 907: wine bottle
+class 890: volleyball
+class 845: syringe
+class 763: revolver, six-gun, six-shooter
+class 661: Model T
+class 499: cleaver, meat cleaver, chopper
+class 430: basketball
+class 402: acoustic guitar
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50', bs=20, comment='', do_flip=False, epochs=20000, exp_name='exp13_IN_layer_6', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=0, specified_layer=6, stop_layer=None, store_best_images=True, targets='1,11,63,94,151,207,250,277,344,466,500,776,907,890,845,763,661,499,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+loading torchvision model for inversion with the name: resnet50
+==> Resuming from checkpoint..
+Deep inversion class generation
+Confirming BN layer 6 specified
+get_images call
+------------Target classes----------
+class 1: goldfish, Carassius auratus
+class 11: goldfinch, Carduelis carduelis
+class 63: Indian cobra, Naja naja
+class 94: hummingbird
+class 151: Chihuahua
+class 207: golden retriever
+class 250: Siberian husky
+class 277: red fox, Vulpes vulpes
+class 344: hippopotamus, hippo, river horse, Hippopotamus amphibius
+class 466: bullet train, bullet
+class 500: cliff dwelling
+class 776: sax, saxophone
+class 907: wine bottle
+class 890: volleyball
+class 845: syringe
+class 763: revolver, six-gun, six-shooter
+class 661: Model T
+class 499: cleaver, meat cleaver, chopper
+class 430: basketball
+class 402: acoustic guitar
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50_SIN.pth.tar', bs=20, comment='', do_flip=False, epochs=20000, exp_name='exp13_SIN_layer_6', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=0, specified_layer=6, stop_layer=None, store_best_images=True, targets='1,11,63,94,151,207,250,277,344,466,500,776,907,890,845,763,661,499,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+==> Resuming from checkpoint..
+=> loading checkpoint './resnet50_SIN.pth.tar'
+=> loaded checkpoint './resnet50_SIN.pth.tar' (epoch 60)
+Deep inversion class generation
+Confirming BN layer 6 specified
+get_images call
+------------Target classes----------
+class 1: goldfish, Carassius auratus
+class 11: goldfinch, Carduelis carduelis
+class 63: Indian cobra, Naja naja
+class 94: hummingbird
+class 151: Chihuahua
+class 207: golden retriever
+class 250: Siberian husky
+class 277: red fox, Vulpes vulpes
+class 344: hippopotamus, hippo, river horse, Hippopotamus amphibius
+class 466: bullet train, bullet
+class 500: cliff dwelling
+class 776: sax, saxophone
+class 907: wine bottle
+class 890: volleyball
+class 845: syringe
+class 763: revolver, six-gun, six-shooter
+class 661: Model T
+class 499: cleaver, meat cleaver, chopper
+class 430: basketball
+class 402: acoustic guitar
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50', bs=20, comment='', do_flip=False, epochs=20000, exp_name='exp13_IN_layer_11', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=0, specified_layer=11, stop_layer=None, store_best_images=True, targets='1,11,63,94,151,207,250,277,344,466,500,776,907,890,845,763,661,499,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+loading torchvision model for inversion with the name: resnet50
+==> Resuming from checkpoint..
+Deep inversion class generation
+Confirming BN layer 11 specified
+get_images call
+------------Target classes----------
+class 1: goldfish, Carassius auratus
+class 11: goldfinch, Carduelis carduelis
+class 63: Indian cobra, Naja naja
+class 94: hummingbird
+class 151: Chihuahua
+class 207: golden retriever
+class 250: Siberian husky
+class 277: red fox, Vulpes vulpes
+class 344: hippopotamus, hippo, river horse, Hippopotamus amphibius
+class 466: bullet train, bullet
+class 500: cliff dwelling
+class 776: sax, saxophone
+class 907: wine bottle
+class 890: volleyball
+class 845: syringe
+class 763: revolver, six-gun, six-shooter
+class 661: Model T
+class 499: cleaver, meat cleaver, chopper
+class 430: basketball
+class 402: acoustic guitar
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50_SIN.pth.tar', bs=20, comment='', do_flip=False, epochs=20000, exp_name='exp13_SIN_layer_11', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=0, specified_layer=11, stop_layer=None, store_best_images=True, targets='1,11,63,94,151,207,250,277,344,466,500,776,907,890,845,763,661,499,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+==> Resuming from checkpoint..
+=> loading checkpoint './resnet50_SIN.pth.tar'
+=> loaded checkpoint './resnet50_SIN.pth.tar' (epoch 60)
+Deep inversion class generation
+Confirming BN layer 11 specified
+get_images call
+------------Target classes----------
+class 1: goldfish, Carassius auratus
+class 11: goldfinch, Carduelis carduelis
+class 63: Indian cobra, Naja naja
+class 94: hummingbird
+class 151: Chihuahua
+class 207: golden retriever
+class 250: Siberian husky
+class 277: red fox, Vulpes vulpes
+class 344: hippopotamus, hippo, river horse, Hippopotamus amphibius
+class 466: bullet train, bullet
+class 500: cliff dwelling
+class 776: sax, saxophone
+class 907: wine bottle
+class 890: volleyball
+class 845: syringe
+class 763: revolver, six-gun, six-shooter
+class 661: Model T
+class 499: cleaver, meat cleaver, chopper
+class 430: basketball
+class 402: acoustic guitar
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50', bs=20, comment='', do_flip=False, epochs=20000, exp_name='exp13_IN_layer_12', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=0, specified_layer=12, stop_layer=None, store_best_images=True, targets='1,11,63,94,151,207,250,277,344,466,500,776,907,890,845,763,661,499,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+loading torchvision model for inversion with the name: resnet50
+==> Resuming from checkpoint..
+Deep inversion class generation
+Confirming BN layer 12 specified
+get_images call
+------------Target classes----------
+class 1: goldfish, Carassius auratus
+class 11: goldfinch, Carduelis carduelis
+class 63: Indian cobra, Naja naja
+class 94: hummingbird
+class 151: Chihuahua
+class 207: golden retriever
+class 250: Siberian husky
+class 277: red fox, Vulpes vulpes
+class 344: hippopotamus, hippo, river horse, Hippopotamus amphibius
+class 466: bullet train, bullet
+class 500: cliff dwelling
+class 776: sax, saxophone
+class 907: wine bottle
+class 890: volleyball
+class 845: syringe
+class 763: revolver, six-gun, six-shooter
+class 661: Model T
+class 499: cleaver, meat cleaver, chopper
+class 430: basketball
+class 402: acoustic guitar
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50_SIN.pth.tar', bs=20, comment='', do_flip=False, epochs=20000, exp_name='exp13_SIN_layer_12', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=0, specified_layer=12, stop_layer=None, store_best_images=True, targets='1,11,63,94,151,207,250,277,344,466,500,776,907,890,845,763,661,499,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+==> Resuming from checkpoint..
+=> loading checkpoint './resnet50_SIN.pth.tar'
+=> loaded checkpoint './resnet50_SIN.pth.tar' (epoch 60)
+Deep inversion class generation
+Confirming BN layer 12 specified
+get_images call
+------------Target classes----------
+class 1: goldfish, Carassius auratus
+class 11: goldfinch, Carduelis carduelis
+class 63: Indian cobra, Naja naja
+class 94: hummingbird
+class 151: Chihuahua
+class 207: golden retriever
+class 250: Siberian husky
+class 277: red fox, Vulpes vulpes
+class 344: hippopotamus, hippo, river horse, Hippopotamus amphibius
+class 466: bullet train, bullet
+class 500: cliff dwelling
+class 776: sax, saxophone
+class 907: wine bottle
+class 890: volleyball
+class 845: syringe
+class 763: revolver, six-gun, six-shooter
+class 661: Model T
+class 499: cleaver, meat cleaver, chopper
+class 430: basketball
+class 402: acoustic guitar
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50', bs=20, comment='', do_flip=False, epochs=20000, exp_name='exp13_IN_layer_14', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=0, specified_layer=14, stop_layer=None, store_best_images=True, targets='1,11,63,94,151,207,250,277,344,466,500,776,907,890,845,763,661,499,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+loading torchvision model for inversion with the name: resnet50
+==> Resuming from checkpoint..
+Deep inversion class generation
+Confirming BN layer 14 specified
+get_images call
+------------Target classes----------
+class 1: goldfish, Carassius auratus
+class 11: goldfinch, Carduelis carduelis
+class 63: Indian cobra, Naja naja
+class 94: hummingbird
+class 151: Chihuahua
+class 207: golden retriever
+class 250: Siberian husky
+class 277: red fox, Vulpes vulpes
+class 344: hippopotamus, hippo, river horse, Hippopotamus amphibius
+class 466: bullet train, bullet
+class 500: cliff dwelling
+class 776: sax, saxophone
+class 907: wine bottle
+class 890: volleyball
+class 845: syringe
+class 763: revolver, six-gun, six-shooter
+class 661: Model T
+class 499: cleaver, meat cleaver, chopper
+class 430: basketball
+class 402: acoustic guitar
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50_SIN.pth.tar', bs=20, comment='', do_flip=False, epochs=20000, exp_name='exp13_SIN_layer_14', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=0, specified_layer=14, stop_layer=None, store_best_images=True, targets='1,11,63,94,151,207,250,277,344,466,500,776,907,890,845,763,661,499,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+==> Resuming from checkpoint..
+=> loading checkpoint './resnet50_SIN.pth.tar'
+=> loaded checkpoint './resnet50_SIN.pth.tar' (epoch 60)
+Deep inversion class generation
+Confirming BN layer 14 specified
+get_images call
+------------Target classes----------
+class 1: goldfish, Carassius auratus
+class 11: goldfinch, Carduelis carduelis
+class 63: Indian cobra, Naja naja
+class 94: hummingbird
+class 151: Chihuahua
+class 207: golden retriever
+class 250: Siberian husky
+class 277: red fox, Vulpes vulpes
+class 344: hippopotamus, hippo, river horse, Hippopotamus amphibius
+class 466: bullet train, bullet
+class 500: cliff dwelling
+class 776: sax, saxophone
+class 907: wine bottle
+class 890: volleyball
+class 845: syringe
+class 763: revolver, six-gun, six-shooter
+class 661: Model T
+class 499: cleaver, meat cleaver, chopper
+class 430: basketball
+class 402: acoustic guitar
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50', bs=20, comment='', do_flip=False, epochs=20000, exp_name='exp13_IN_layer_15', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=0, specified_layer=15, stop_layer=None, store_best_images=True, targets='1,11,63,94,151,207,250,277,344,466,500,776,907,890,845,763,661,499,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+loading torchvision model for inversion with the name: resnet50
+==> Resuming from checkpoint..
+Deep inversion class generation
+Confirming BN layer 15 specified
+get_images call
+------------Target classes----------
+class 1: goldfish, Carassius auratus
+class 11: goldfinch, Carduelis carduelis
+class 63: Indian cobra, Naja naja
+class 94: hummingbird
+class 151: Chihuahua
+class 207: golden retriever
+class 250: Siberian husky
+class 277: red fox, Vulpes vulpes
+class 344: hippopotamus, hippo, river horse, Hippopotamus amphibius
+class 466: bullet train, bullet
+class 500: cliff dwelling
+class 776: sax, saxophone
+class 907: wine bottle
+class 890: volleyball
+class 845: syringe
+class 763: revolver, six-gun, six-shooter
+class 661: Model T
+class 499: cleaver, meat cleaver, chopper
+class 430: basketball
+class 402: acoustic guitar
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50_SIN.pth.tar', bs=20, comment='', do_flip=False, epochs=20000, exp_name='exp13_SIN_layer_15', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=0, specified_layer=15, stop_layer=None, store_best_images=True, targets='1,11,63,94,151,207,250,277,344,466,500,776,907,890,845,763,661,499,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+==> Resuming from checkpoint..
+=> loading checkpoint './resnet50_SIN.pth.tar'
+=> loaded checkpoint './resnet50_SIN.pth.tar' (epoch 60)
+Deep inversion class generation
+Confirming BN layer 15 specified
+get_images call
+------------Target classes----------
+class 1: goldfish, Carassius auratus
+class 11: goldfinch, Carduelis carduelis
+class 63: Indian cobra, Naja naja
+class 94: hummingbird
+class 151: Chihuahua
+class 207: golden retriever
+class 250: Siberian husky
+class 277: red fox, Vulpes vulpes
+class 344: hippopotamus, hippo, river horse, Hippopotamus amphibius
+class 466: bullet train, bullet
+class 500: cliff dwelling
+class 776: sax, saxophone
+class 907: wine bottle
+class 890: volleyball
+class 845: syringe
+class 763: revolver, six-gun, six-shooter
+class 661: Model T
+class 499: cleaver, meat cleaver, chopper
+class 430: basketball
+class 402: acoustic guitar
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50', bs=20, comment='', do_flip=False, epochs=20000, exp_name='exp13_IN_layer_16', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=0, specified_layer=16, stop_layer=None, store_best_images=True, targets='1,11,63,94,151,207,250,277,344,466,500,776,907,890,845,763,661,499,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+loading torchvision model for inversion with the name: resnet50
+==> Resuming from checkpoint..
+Deep inversion class generation
+Confirming BN layer 16 specified
+get_images call
+------------Target classes----------
+class 1: goldfish, Carassius auratus
+class 11: goldfinch, Carduelis carduelis
+class 63: Indian cobra, Naja naja
+class 94: hummingbird
+class 151: Chihuahua
+class 207: golden retriever
+class 250: Siberian husky
+class 277: red fox, Vulpes vulpes
+class 344: hippopotamus, hippo, river horse, Hippopotamus amphibius
+class 466: bullet train, bullet
+class 500: cliff dwelling
+class 776: sax, saxophone
+class 907: wine bottle
+class 890: volleyball
+class 845: syringe
+class 763: revolver, six-gun, six-shooter
+class 661: Model T
+class 499: cleaver, meat cleaver, chopper
+class 430: basketball
+class 402: acoustic guitar
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50_SIN.pth.tar', bs=20, comment='', do_flip=False, epochs=20000, exp_name='exp13_SIN_layer_16', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=0, specified_layer=16, stop_layer=None, store_best_images=True, targets='1,11,63,94,151,207,250,277,344,466,500,776,907,890,845,763,661,499,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+==> Resuming from checkpoint..
+=> loading checkpoint './resnet50_SIN.pth.tar'
+=> loaded checkpoint './resnet50_SIN.pth.tar' (epoch 60)
+Deep inversion class generation
+Confirming BN layer 16 specified
+get_images call
+------------Target classes----------
+class 1: goldfish, Carassius auratus
+class 11: goldfinch, Carduelis carduelis
+class 63: Indian cobra, Naja naja
+class 94: hummingbird
+class 151: Chihuahua
+class 207: golden retriever
+class 250: Siberian husky
+class 277: red fox, Vulpes vulpes
+class 344: hippopotamus, hippo, river horse, Hippopotamus amphibius
+class 466: bullet train, bullet
+class 500: cliff dwelling
+class 776: sax, saxophone
+class 907: wine bottle
+class 890: volleyball
+class 845: syringe
+class 763: revolver, six-gun, six-shooter
+class 661: Model T
+class 499: cleaver, meat cleaver, chopper
+class 430: basketball
+class 402: acoustic guitar
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50', bs=20, comment='', do_flip=False, epochs=20000, exp_name='exp13_IN_layer_24', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=0, specified_layer=24, stop_layer=None, store_best_images=True, targets='1,11,63,94,151,207,250,277,344,466,500,776,907,890,845,763,661,499,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+loading torchvision model for inversion with the name: resnet50
+==> Resuming from checkpoint..
+Deep inversion class generation
+Confirming BN layer 24 specified
+get_images call
+------------Target classes----------
+class 1: goldfish, Carassius auratus
+class 11: goldfinch, Carduelis carduelis
+class 63: Indian cobra, Naja naja
+class 94: hummingbird
+class 151: Chihuahua
+class 207: golden retriever
+class 250: Siberian husky
+class 277: red fox, Vulpes vulpes
+class 344: hippopotamus, hippo, river horse, Hippopotamus amphibius
+class 466: bullet train, bullet
+class 500: cliff dwelling
+class 776: sax, saxophone
+class 907: wine bottle
+class 890: volleyball
+class 845: syringe
+class 763: revolver, six-gun, six-shooter
+class 661: Model T
+class 499: cleaver, meat cleaver, chopper
+class 430: basketball
+class 402: acoustic guitar
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50_SIN.pth.tar', bs=20, comment='', do_flip=False, epochs=20000, exp_name='exp13_SIN_layer_24', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=0, specified_layer=24, stop_layer=None, store_best_images=True, targets='1,11,63,94,151,207,250,277,344,466,500,776,907,890,845,763,661,499,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+==> Resuming from checkpoint..
+=> loading checkpoint './resnet50_SIN.pth.tar'
+=> loaded checkpoint './resnet50_SIN.pth.tar' (epoch 60)
+Deep inversion class generation
+Confirming BN layer 24 specified
+get_images call
+------------Target classes----------
+class 1: goldfish, Carassius auratus
+class 11: goldfinch, Carduelis carduelis
+class 63: Indian cobra, Naja naja
+class 94: hummingbird
+class 151: Chihuahua
+class 207: golden retriever
+class 250: Siberian husky
+class 277: red fox, Vulpes vulpes
+class 344: hippopotamus, hippo, river horse, Hippopotamus amphibius
+class 466: bullet train, bullet
+class 500: cliff dwelling
+class 776: sax, saxophone
+class 907: wine bottle
+class 890: volleyball
+class 845: syringe
+class 763: revolver, six-gun, six-shooter
+class 661: Model T
+class 499: cleaver, meat cleaver, chopper
+class 430: basketball
+class 402: acoustic guitar
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50', bs=20, comment='', do_flip=False, epochs=20000, exp_name='exp13_IN_layer_25', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=0, specified_layer=25, stop_layer=None, store_best_images=True, targets='1,11,63,94,151,207,250,277,344,466,500,776,907,890,845,763,661,499,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+loading torchvision model for inversion with the name: resnet50
+==> Resuming from checkpoint..
+Deep inversion class generation
+Confirming BN layer 25 specified
+get_images call
+------------Target classes----------
+class 1: goldfish, Carassius auratus
+class 11: goldfinch, Carduelis carduelis
+class 63: Indian cobra, Naja naja
+class 94: hummingbird
+class 151: Chihuahua
+class 207: golden retriever
+class 250: Siberian husky
+class 277: red fox, Vulpes vulpes
+class 344: hippopotamus, hippo, river horse, Hippopotamus amphibius
+class 466: bullet train, bullet
+class 500: cliff dwelling
+class 776: sax, saxophone
+class 907: wine bottle
+class 890: volleyball
+class 845: syringe
+class 763: revolver, six-gun, six-shooter
+class 661: Model T
+class 499: cleaver, meat cleaver, chopper
+class 430: basketball
+class 402: acoustic guitar
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50_SIN.pth.tar', bs=20, comment='', do_flip=False, epochs=20000, exp_name='exp13_SIN_layer_25', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=0, specified_layer=25, stop_layer=None, store_best_images=True, targets='1,11,63,94,151,207,250,277,344,466,500,776,907,890,845,763,661,499,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+==> Resuming from checkpoint..
+=> loading checkpoint './resnet50_SIN.pth.tar'
+=> loaded checkpoint './resnet50_SIN.pth.tar' (epoch 60)
+Deep inversion class generation
+Confirming BN layer 25 specified
+get_images call
+------------Target classes----------
+class 1: goldfish, Carassius auratus
+class 11: goldfinch, Carduelis carduelis
+class 63: Indian cobra, Naja naja
+class 94: hummingbird
+class 151: Chihuahua
+class 207: golden retriever
+class 250: Siberian husky
+class 277: red fox, Vulpes vulpes
+class 344: hippopotamus, hippo, river horse, Hippopotamus amphibius
+class 466: bullet train, bullet
+class 500: cliff dwelling
+class 776: sax, saxophone
+class 907: wine bottle
+class 890: volleyball
+class 845: syringe
+class 763: revolver, six-gun, six-shooter
+class 661: Model T
+class 499: cleaver, meat cleaver, chopper
+class 430: basketball
+class 402: acoustic guitar
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50', bs=20, comment='', do_flip=False, epochs=20000, exp_name='exp13_IN_layer_27', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=0, specified_layer=27, stop_layer=None, store_best_images=True, targets='1,11,63,94,151,207,250,277,344,466,500,776,907,890,845,763,661,499,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+loading torchvision model for inversion with the name: resnet50
+==> Resuming from checkpoint..
+Deep inversion class generation
+Confirming BN layer 27 specified
+get_images call
+------------Target classes----------
+class 1: goldfish, Carassius auratus
+class 11: goldfinch, Carduelis carduelis
+class 63: Indian cobra, Naja naja
+class 94: hummingbird
+class 151: Chihuahua
+class 207: golden retriever
+class 250: Siberian husky
+class 277: red fox, Vulpes vulpes
+class 344: hippopotamus, hippo, river horse, Hippopotamus amphibius
+class 466: bullet train, bullet
+class 500: cliff dwelling
+class 776: sax, saxophone
+class 907: wine bottle
+class 890: volleyball
+class 845: syringe
+class 763: revolver, six-gun, six-shooter
+class 661: Model T
+class 499: cleaver, meat cleaver, chopper
+class 430: basketball
+class 402: acoustic guitar
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50_SIN.pth.tar', bs=20, comment='', do_flip=False, epochs=20000, exp_name='exp13_SIN_layer_27', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=0, specified_layer=27, stop_layer=None, store_best_images=True, targets='1,11,63,94,151,207,250,277,344,466,500,776,907,890,845,763,661,499,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+==> Resuming from checkpoint..
+=> loading checkpoint './resnet50_SIN.pth.tar'
+=> loaded checkpoint './resnet50_SIN.pth.tar' (epoch 60)
+Deep inversion class generation
+Confirming BN layer 27 specified
+get_images call
+------------Target classes----------
+class 1: goldfish, Carassius auratus
+class 11: goldfinch, Carduelis carduelis
+class 63: Indian cobra, Naja naja
+class 94: hummingbird
+class 151: Chihuahua
+class 207: golden retriever
+class 250: Siberian husky
+class 277: red fox, Vulpes vulpes
+class 344: hippopotamus, hippo, river horse, Hippopotamus amphibius
+class 466: bullet train, bullet
+class 500: cliff dwelling
+class 776: sax, saxophone
+class 907: wine bottle
+class 890: volleyball
+class 845: syringe
+class 763: revolver, six-gun, six-shooter
+class 661: Model T
+class 499: cleaver, meat cleaver, chopper
+class 430: basketball
+class 402: acoustic guitar
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50', bs=20, comment='', do_flip=False, epochs=20000, exp_name='exp13_IN_layer_28', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=0, specified_layer=28, stop_layer=None, store_best_images=True, targets='1,11,63,94,151,207,250,277,344,466,500,776,907,890,845,763,661,499,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+loading torchvision model for inversion with the name: resnet50
+==> Resuming from checkpoint..
+Deep inversion class generation
+Confirming BN layer 28 specified
+get_images call
+------------Target classes----------
+class 1: goldfish, Carassius auratus
+class 11: goldfinch, Carduelis carduelis
+class 63: Indian cobra, Naja naja
+class 94: hummingbird
+class 151: Chihuahua
+class 207: golden retriever
+class 250: Siberian husky
+class 277: red fox, Vulpes vulpes
+class 344: hippopotamus, hippo, river horse, Hippopotamus amphibius
+class 466: bullet train, bullet
+class 500: cliff dwelling
+class 776: sax, saxophone
+class 907: wine bottle
+class 890: volleyball
+class 845: syringe
+class 763: revolver, six-gun, six-shooter
+class 661: Model T
+class 499: cleaver, meat cleaver, chopper
+class 430: basketball
+class 402: acoustic guitar
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50_SIN.pth.tar', bs=20, comment='', do_flip=False, epochs=20000, exp_name='exp13_SIN_layer_28', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=0, specified_layer=28, stop_layer=None, store_best_images=True, targets='1,11,63,94,151,207,250,277,344,466,500,776,907,890,845,763,661,499,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+==> Resuming from checkpoint..
+=> loading checkpoint './resnet50_SIN.pth.tar'
+=> loaded checkpoint './resnet50_SIN.pth.tar' (epoch 60)
+Deep inversion class generation
+Confirming BN layer 28 specified
+get_images call
+------------Target classes----------
+class 1: goldfish, Carassius auratus
+class 11: goldfinch, Carduelis carduelis
+class 63: Indian cobra, Naja naja
+class 94: hummingbird
+class 151: Chihuahua
+class 207: golden retriever
+class 250: Siberian husky
+class 277: red fox, Vulpes vulpes
+class 344: hippopotamus, hippo, river horse, Hippopotamus amphibius
+class 466: bullet train, bullet
+class 500: cliff dwelling
+class 776: sax, saxophone
+class 907: wine bottle
+class 890: volleyball
+class 845: syringe
+class 763: revolver, six-gun, six-shooter
+class 661: Model T
+class 499: cleaver, meat cleaver, chopper
+class 430: basketball
+class 402: acoustic guitar
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50', bs=20, comment='', do_flip=False, epochs=20000, exp_name='exp13_IN_layer_29', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=0, specified_layer=29, stop_layer=None, store_best_images=True, targets='1,11,63,94,151,207,250,277,344,466,500,776,907,890,845,763,661,499,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+loading torchvision model for inversion with the name: resnet50
+==> Resuming from checkpoint..
+Deep inversion class generation
+Confirming BN layer 29 specified
+get_images call
+------------Target classes----------
+class 1: goldfish, Carassius auratus
+class 11: goldfinch, Carduelis carduelis
+class 63: Indian cobra, Naja naja
+class 94: hummingbird
+class 151: Chihuahua
+class 207: golden retriever
+class 250: Siberian husky
+class 277: red fox, Vulpes vulpes
+class 344: hippopotamus, hippo, river horse, Hippopotamus amphibius
+class 466: bullet train, bullet
+class 500: cliff dwelling
+class 776: sax, saxophone
+class 907: wine bottle
+class 890: volleyball
+class 845: syringe
+class 763: revolver, six-gun, six-shooter
+class 661: Model T
+class 499: cleaver, meat cleaver, chopper
+class 430: basketball
+class 402: acoustic guitar
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50_SIN.pth.tar', bs=20, comment='', do_flip=False, epochs=20000, exp_name='exp13_SIN_layer_29', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=0, specified_layer=29, stop_layer=None, store_best_images=True, targets='1,11,63,94,151,207,250,277,344,466,500,776,907,890,845,763,661,499,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+==> Resuming from checkpoint..
+=> loading checkpoint './resnet50_SIN.pth.tar'
+=> loaded checkpoint './resnet50_SIN.pth.tar' (epoch 60)
+Deep inversion class generation
+Confirming BN layer 29 specified
+get_images call
+------------Target classes----------
+class 1: goldfish, Carassius auratus
+class 11: goldfinch, Carduelis carduelis
+class 63: Indian cobra, Naja naja
+class 94: hummingbird
+class 151: Chihuahua
+class 207: golden retriever
+class 250: Siberian husky
+class 277: red fox, Vulpes vulpes
+class 344: hippopotamus, hippo, river horse, Hippopotamus amphibius
+class 466: bullet train, bullet
+class 500: cliff dwelling
+class 776: sax, saxophone
+class 907: wine bottle
+class 890: volleyball
+class 845: syringe
+class 763: revolver, six-gun, six-shooter
+class 661: Model T
+class 499: cleaver, meat cleaver, chopper
+class 430: basketball
+class 402: acoustic guitar
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50', bs=20, comment='', do_flip=False, epochs=20000, exp_name='exp13_IN_layer_43', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=0, specified_layer=43, stop_layer=None, store_best_images=True, targets='1,11,63,94,151,207,250,277,344,466,500,776,907,890,845,763,661,499,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+loading torchvision model for inversion with the name: resnet50
+==> Resuming from checkpoint..
+Deep inversion class generation
+Confirming BN layer 43 specified
+get_images call
+------------Target classes----------
+class 1: goldfish, Carassius auratus
+class 11: goldfinch, Carduelis carduelis
+class 63: Indian cobra, Naja naja
+class 94: hummingbird
+class 151: Chihuahua
+class 207: golden retriever
+class 250: Siberian husky
+class 277: red fox, Vulpes vulpes
+class 344: hippopotamus, hippo, river horse, Hippopotamus amphibius
+class 466: bullet train, bullet
+class 500: cliff dwelling
+class 776: sax, saxophone
+class 907: wine bottle
+class 890: volleyball
+class 845: syringe
+class 763: revolver, six-gun, six-shooter
+class 661: Model T
+class 499: cleaver, meat cleaver, chopper
+class 430: basketball
+class 402: acoustic guitar
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50_SIN.pth.tar', bs=20, comment='', do_flip=False, epochs=20000, exp_name='exp13_SIN_layer_43', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=0, specified_layer=43, stop_layer=None, store_best_images=True, targets='1,11,63,94,151,207,250,277,344,466,500,776,907,890,845,763,661,499,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+==> Resuming from checkpoint..
+=> loading checkpoint './resnet50_SIN.pth.tar'
+=> loaded checkpoint './resnet50_SIN.pth.tar' (epoch 60)
+Deep inversion class generation
+Confirming BN layer 43 specified
+get_images call
+------------Target classes----------
+class 1: goldfish, Carassius auratus
+class 11: goldfinch, Carduelis carduelis
+class 63: Indian cobra, Naja naja
+class 94: hummingbird
+class 151: Chihuahua
+class 207: golden retriever
+class 250: Siberian husky
+class 277: red fox, Vulpes vulpes
+class 344: hippopotamus, hippo, river horse, Hippopotamus amphibius
+class 466: bullet train, bullet
+class 500: cliff dwelling
+class 776: sax, saxophone
+class 907: wine bottle
+class 890: volleyball
+class 845: syringe
+class 763: revolver, six-gun, six-shooter
+class 661: Model T
+class 499: cleaver, meat cleaver, chopper
+class 430: basketball
+class 402: acoustic guitar
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50', bs=20, comment='', do_flip=False, epochs=20000, exp_name='exp13_IN_layer_44', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=0, specified_layer=44, stop_layer=None, store_best_images=True, targets='1,11,63,94,151,207,250,277,344,466,500,776,907,890,845,763,661,499,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+loading torchvision model for inversion with the name: resnet50
+==> Resuming from checkpoint..
+Deep inversion class generation
+Confirming BN layer 44 specified
+get_images call
+------------Target classes----------
+class 1: goldfish, Carassius auratus
+class 11: goldfinch, Carduelis carduelis
+class 63: Indian cobra, Naja naja
+class 94: hummingbird
+class 151: Chihuahua
+class 207: golden retriever
+class 250: Siberian husky
+class 277: red fox, Vulpes vulpes
+class 344: hippopotamus, hippo, river horse, Hippopotamus amphibius
+class 466: bullet train, bullet
+class 500: cliff dwelling
+class 776: sax, saxophone
+class 907: wine bottle
+class 890: volleyball
+class 845: syringe
+class 763: revolver, six-gun, six-shooter
+class 661: Model T
+class 499: cleaver, meat cleaver, chopper
+class 430: basketball
+class 402: acoustic guitar
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50_SIN.pth.tar', bs=20, comment='', do_flip=False, epochs=20000, exp_name='exp13_SIN_layer_44', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=0, specified_layer=44, stop_layer=None, store_best_images=True, targets='1,11,63,94,151,207,250,277,344,466,500,776,907,890,845,763,661,499,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+==> Resuming from checkpoint..
+=> loading checkpoint './resnet50_SIN.pth.tar'
+=> loaded checkpoint './resnet50_SIN.pth.tar' (epoch 60)
+Deep inversion class generation
+Confirming BN layer 44 specified
+get_images call
+------------Target classes----------
+class 1: goldfish, Carassius auratus
+class 11: goldfinch, Carduelis carduelis
+class 63: Indian cobra, Naja naja
+class 94: hummingbird
+class 151: Chihuahua
+class 207: golden retriever
+class 250: Siberian husky
+class 277: red fox, Vulpes vulpes
+class 344: hippopotamus, hippo, river horse, Hippopotamus amphibius
+class 466: bullet train, bullet
+class 500: cliff dwelling
+class 776: sax, saxophone
+class 907: wine bottle
+class 890: volleyball
+class 845: syringe
+class 763: revolver, six-gun, six-shooter
+class 661: Model T
+class 499: cleaver, meat cleaver, chopper
+class 430: basketball
+class 402: acoustic guitar
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50', bs=20, comment='', do_flip=False, epochs=20000, exp_name='exp13_IN_layer_46', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=0, specified_layer=46, stop_layer=None, store_best_images=True, targets='1,11,63,94,151,207,250,277,344,466,500,776,907,890,845,763,661,499,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+loading torchvision model for inversion with the name: resnet50
+==> Resuming from checkpoint..
+Deep inversion class generation
+Confirming BN layer 46 specified
+get_images call
+------------Target classes----------
+class 1: goldfish, Carassius auratus
+class 11: goldfinch, Carduelis carduelis
+class 63: Indian cobra, Naja naja
+class 94: hummingbird
+class 151: Chihuahua
+class 207: golden retriever
+class 250: Siberian husky
+class 277: red fox, Vulpes vulpes
+class 344: hippopotamus, hippo, river horse, Hippopotamus amphibius
+class 466: bullet train, bullet
+class 500: cliff dwelling
+class 776: sax, saxophone
+class 907: wine bottle
+class 890: volleyball
+class 845: syringe
+class 763: revolver, six-gun, six-shooter
+class 661: Model T
+class 499: cleaver, meat cleaver, chopper
+class 430: basketball
+class 402: acoustic guitar
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50_SIN.pth.tar', bs=20, comment='', do_flip=False, epochs=20000, exp_name='exp13_SIN_layer_46', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=0, specified_layer=46, stop_layer=None, store_best_images=True, targets='1,11,63,94,151,207,250,277,344,466,500,776,907,890,845,763,661,499,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+==> Resuming from checkpoint..
+=> loading checkpoint './resnet50_SIN.pth.tar'
+=> loaded checkpoint './resnet50_SIN.pth.tar' (epoch 60)
+Deep inversion class generation
+Confirming BN layer 46 specified
+get_images call
+------------Target classes----------
+class 1: goldfish, Carassius auratus
+class 11: goldfinch, Carduelis carduelis
+class 63: Indian cobra, Naja naja
+class 94: hummingbird
+class 151: Chihuahua
+class 207: golden retriever
+class 250: Siberian husky
+class 277: red fox, Vulpes vulpes
+class 344: hippopotamus, hippo, river horse, Hippopotamus amphibius
+class 466: bullet train, bullet
+class 500: cliff dwelling
+class 776: sax, saxophone
+class 907: wine bottle
+class 890: volleyball
+class 845: syringe
+class 763: revolver, six-gun, six-shooter
+class 661: Model T
+class 499: cleaver, meat cleaver, chopper
+class 430: basketball
+class 402: acoustic guitar
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50', bs=20, comment='', do_flip=False, epochs=20000, exp_name='exp13_IN_layer_47', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=0, specified_layer=47, stop_layer=None, store_best_images=True, targets='1,11,63,94,151,207,250,277,344,466,500,776,907,890,845,763,661,499,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+loading torchvision model for inversion with the name: resnet50
+==> Resuming from checkpoint..
+Deep inversion class generation
+Confirming BN layer 47 specified
+get_images call
+------------Target classes----------
+class 1: goldfish, Carassius auratus
+class 11: goldfinch, Carduelis carduelis
+class 63: Indian cobra, Naja naja
+class 94: hummingbird
+class 151: Chihuahua
+class 207: golden retriever
+class 250: Siberian husky
+class 277: red fox, Vulpes vulpes
+class 344: hippopotamus, hippo, river horse, Hippopotamus amphibius
+class 466: bullet train, bullet
+class 500: cliff dwelling
+class 776: sax, saxophone
+class 907: wine bottle
+class 890: volleyball
+class 845: syringe
+class 763: revolver, six-gun, six-shooter
+class 661: Model T
+class 499: cleaver, meat cleaver, chopper
+class 430: basketball
+class 402: acoustic guitar
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50_SIN.pth.tar', bs=20, comment='', do_flip=False, epochs=20000, exp_name='exp13_SIN_layer_47', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=0, specified_layer=47, stop_layer=None, store_best_images=True, targets='1,11,63,94,151,207,250,277,344,466,500,776,907,890,845,763,661,499,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+==> Resuming from checkpoint..
+=> loading checkpoint './resnet50_SIN.pth.tar'
+=> loaded checkpoint './resnet50_SIN.pth.tar' (epoch 60)
+Deep inversion class generation
+Confirming BN layer 47 specified
+get_images call
+------------Target classes----------
+class 1: goldfish, Carassius auratus
+class 11: goldfinch, Carduelis carduelis
+class 63: Indian cobra, Naja naja
+class 94: hummingbird
+class 151: Chihuahua
+class 207: golden retriever
+class 250: Siberian husky
+class 277: red fox, Vulpes vulpes
+class 344: hippopotamus, hippo, river horse, Hippopotamus amphibius
+class 466: bullet train, bullet
+class 500: cliff dwelling
+class 776: sax, saxophone
+class 907: wine bottle
+class 890: volleyball
+class 845: syringe
+class 763: revolver, six-gun, six-shooter
+class 661: Model T
+class 499: cleaver, meat cleaver, chopper
+class 430: basketball
+class 402: acoustic guitar
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50', bs=20, comment='', do_flip=False, epochs=20000, exp_name='exp13_IN_layer_48', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=0, specified_layer=48, stop_layer=None, store_best_images=True, targets='1,11,63,94,151,207,250,277,344,466,500,776,907,890,845,763,661,499,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+loading torchvision model for inversion with the name: resnet50
+==> Resuming from checkpoint..
+Deep inversion class generation
+Confirming BN layer 48 specified
+get_images call
+------------Target classes----------
+class 1: goldfish, Carassius auratus
+class 11: goldfinch, Carduelis carduelis
+class 63: Indian cobra, Naja naja
+class 94: hummingbird
+class 151: Chihuahua
+class 207: golden retriever
+class 250: Siberian husky
+class 277: red fox, Vulpes vulpes
+class 344: hippopotamus, hippo, river horse, Hippopotamus amphibius
+class 466: bullet train, bullet
+class 500: cliff dwelling
+class 776: sax, saxophone
+class 907: wine bottle
+class 890: volleyball
+class 845: syringe
+class 763: revolver, six-gun, six-shooter
+class 661: Model T
+class 499: cleaver, meat cleaver, chopper
+class 430: basketball
+class 402: acoustic guitar
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+Namespace(adi_scale=0.0, all_targets=False, arch_name='resnet50_SIN.pth.tar', bs=20, comment='', do_flip=False, epochs=20000, exp_name='exp13_SIN_layer_48', first_bn_multiplier=10.0, fp16=False, jitter=30, l2=1e-05, local_rank=0, lr=0.2, main_loss_multiplier=1.0, no_cuda=False, r_feature=0.05, random_label=False, setting_id=0, specified_layer=48, stop_layer=None, store_best_images=True, targets='1,11,63,94,151,207,250,277,344,466,500,776,907,890,845,763,661,499,430,402', tv_l1=0.0, tv_l2=0.0001, verifier=False, verifier_arch='mobilenet_v2', worldsize=1)
+==> Resuming from checkpoint..
+=> loading checkpoint './resnet50_SIN.pth.tar'
+=> loaded checkpoint './resnet50_SIN.pth.tar' (epoch 60)
+Deep inversion class generation
+Confirming BN layer 48 specified
+get_images call
+------------Target classes----------
+class 1: goldfish, Carassius auratus
+class 11: goldfinch, Carduelis carduelis
+class 63: Indian cobra, Naja naja
+class 94: hummingbird
+class 151: Chihuahua
+class 207: golden retriever
+class 250: Siberian husky
+class 277: red fox, Vulpes vulpes
+class 344: hippopotamus, hippo, river horse, Hippopotamus amphibius
+class 466: bullet train, bullet
+class 500: cliff dwelling
+class 776: sax, saxophone
+class 907: wine bottle
+class 890: volleyball
+class 845: syringe
+class 763: revolver, six-gun, six-shooter
+class 661: Model T
+class 499: cleaver, meat cleaver, chopper
+class 430: basketball
+class 402: acoustic guitar
+/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
